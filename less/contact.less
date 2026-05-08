@@ -1,0 +1,69 @@
+.contactHeading{
+    font-size: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid  #ccc;
+    margin-bottom: 25px;
+}
+
+.contactForm{
+    position: relative;
+    #contactForm{
+        margin-bottom: 30px;
+        label{
+            font-family: @baseFont;
+            font-size: 12px;
+            font-weight: normal;
+            color: @baseColor5;
+            text-transform: uppercase;
+            text-shadow: 0;
+        }
+        .form-control{
+            border-radius: 0;
+            box-shadow: none;
+            margin-bottom: 20px;
+        }
+        textarea{
+            resize: none;
+            height: 160px;
+        }
+        .captchaRow{
+            background: #f4f4f4;
+            padding: 15px;
+            margin-bottom: 20px;
+            img{
+                margin-bottom: 10px;
+                max-width: 100%;
+            }
+            .form-control{
+                margin-bottom: 0;
+            }
+        }
+    }
+    #success,#error{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: none;
+        span{
+            line-height: 40px;
+            font-family: @baseFont2;
+            font-size: 14px;            
+            position: absolute;
+            top: ~"calc(50% - 20px)";
+            left: 0;
+            width: 100%;
+        }
+    }
+    #success{
+        span{
+            color: @baseColor;
+        }
+    }
+    #error{
+        span{
+            color: @baseColor21;
+        }
+    }
+}

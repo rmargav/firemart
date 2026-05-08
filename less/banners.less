@@ -1,0 +1,191 @@
+#homeBanners{
+    .homeBanner{
+        text-transform: uppercase;
+        color: @baseColor4;
+        img{
+            width: 100%;            
+        }
+        .bannerTextArea{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: fade(#FFF,85%);
+            padding: 10px;
+            .bannerTextAreaInner{
+                height: 100%;
+                border: 2px solid @baseColor4;
+                padding-top: 35px;
+                h4{
+                    font-size: 20px;
+                    font-family: @baseFont;
+                    font-weight: bold;
+                    &:after{
+                        content: '';
+                        width: 65px;
+                        height: 2px;
+                        background: @baseColor4;
+                        margin: 13px auto;
+                        display: block;
+                    }
+                }
+                h5{
+                    font-family: @baseFont;
+                }
+            }
+        }
+    }
+}
+
+#homeBanners2{
+    .newArrivals{
+        position: relative;
+        img{
+            width: 100%;
+        }
+        .newArrivalsBox{
+            position: absolute;            
+            width: 215px;
+            padding: 10px;
+            background: fade(#FFF,55%);
+            top: ~"calc(50% - 85px)";
+            left: 0;
+            .newArrivalsBoxInner{
+                width: 100%;
+                height: 100%;
+                background: #FFF;
+                padding: 20px;
+                text-transform: uppercase;
+                h3{
+                    line-height: 28px;
+                    margin-bottom: 5px;
+                }
+                a{                    
+                    font-family: @baseFont;
+                    font-size: 14px;
+                    color: @baseColor4;
+                    i{
+                        margin-left: 5px;
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+    .newYearSale{
+        background: @baseColor;
+        color: #FFF;
+        text-align: center;
+        padding: 20px;
+        h5{
+            position: relative;
+            z-index: 2;
+            margin: 5px 0 0;
+            &:before{
+                content: '';
+                width: 100%;
+                display: block;
+                height: 1px;
+                background: #FFF;
+                position: relative;
+                z-index: 0;
+                margin-bottom: -15px;
+            }
+            span{
+                background: @baseColor;
+                padding: 0 25px;
+                display: inline-block;
+                line-height: 30px;
+                position: relative;
+                z-index: 3;
+            }
+        }
+        h2{
+            color: #FFF;
+            margin-bottom: 0;
+            line-height: 40px;
+        }
+        h3{
+            color: #FFF;
+            line-height: 34px;
+            font-size: 22px;
+            margin-bottom: 0;
+            padding-bottom: 4px;
+            border-bottom: 1px solid  #FFF;
+        }
+    }
+    .endYearSale{
+        position: relative;
+        margin-top: 30px;
+        text-align: center;
+        overflow: hidden;
+        img{
+            width: 100%;
+        }
+        .endYearSaleBox{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            padding: 10px;
+            top: 0;
+            left: 0;
+            .endYearSaleBoxInner{
+                padding: 20px;
+                border: 1px solid  #FFF;
+                height: 100%;
+                text-transform: uppercase;
+                h5{
+                    color: #FFF;
+                    margin-top: 0;
+                    font-family: @baseFont2;
+                    font-size: 14px;
+                }
+                h2{
+                    color: #FFF;
+                    margin-bottom: 10px;
+                }
+                h6{
+                    color: #FFF;
+                    margin-bottom: 5px;
+                }
+            }
+        }
+    }
+    .factoryOutlet{
+        position: relative;
+        img{
+            width: 100%;
+        }
+        .factoryOutletBox{
+            position: absolute;            
+            width: 215px;
+            padding: 10px;
+            background: fade(#FFF,55%);
+            top: ~"calc(50% - 85px)";
+            right: 0;
+            text-align: center;
+            .factoryOutletBoxInner{
+                width: 100%;
+                height: 100%;
+                background: #FFF;
+                padding: 20px;
+                text-transform: uppercase;
+                h3{
+                    line-height: 28px;
+                    margin-bottom: 5px;
+                    font-size: 22px;
+                }
+                a{                    
+                    font-family: @baseFont;
+                    font-size: 14px;
+                    color: @baseColor4;
+                    i{
+                        margin-left: 5px;
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+}

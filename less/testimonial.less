@@ -1,0 +1,99 @@
+#testimonialTabs{
+    background: url('../images/testimonial/bg.png') repeat scroll 0 0;
+}
+
+#testiTab{
+    text-align: center;
+    border: none;
+    margin-bottom: 30px;
+    height: 114px;
+    li{
+        padding: 0 15px;
+        display: inline-block;
+        float: none;
+        a{
+            position: relative;
+            padding: 0;
+            border: none;
+            width: 81px;
+            height: 81px;
+            margin: 0;
+            border-radius: 100%;
+            img{
+                width: 100%;
+            }
+            i{
+                position: absolute;
+                top: 57px;
+                right: 0;
+                font-size: 20px;
+                color: @baseColor;
+            }
+            &:before,&:after{
+                content: '';
+                width: 0;
+                height: 0;
+                border-left: 14px solid transparent;
+                border-right: 14px solid transparent;
+                border-bottom: 14px solid transparent;
+                position: absolute;
+                margin: 0 auto;
+                display: block;
+                bottom: -31px;
+                left: ~"calc(50% - 14px)";
+            }
+            &:after{
+                border-bottom: 13px solid transparent;
+                bottom: -31.8px;
+            }
+        }
+        &.active{
+            a{
+                width: 114px;
+                height: 114px;
+                position: relative;
+                i{
+                    visibility: hidden;
+                }
+                &:before,&:after{
+                    border-bottom: 14px solid  @baseColor13;
+                }
+                &:after{
+                    border-bottom: 13px solid  #FFF;
+                }
+            }
+        }
+    }
+}
+
+.testiTabContent{
+    .tab-pane{
+        max-width: 600px;
+        width: 95%;
+        padding: 30px 40px;
+        background: #FFF;
+        border-radius: 0;
+        margin: 0 auto;
+        border: 1px solid @baseColor13;
+        text-align: center;
+        h5{
+            font-family: @baseFont;
+            text-transform: uppercase;
+            &.customerName{
+                font-weight: bold;
+                color: @baseColor;
+                margin-top: 0;
+            }
+            &.customerType{
+                margin-bottom: 20px;
+                font-family: @baseFont2;
+            }
+        }
+        p{
+            color: @baseColor5;
+            font-family: @baseFont2;
+            margin-bottom: 30px;
+            line-height: 24px;
+        }
+    }
+}

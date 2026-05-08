@@ -1,0 +1,239 @@
+footer{    
+    background: url('../images/footer.png') no-repeat scroll center 0;
+    background-size: cover;
+    .copyRight{
+        background: #000;
+        line-height: 12px;
+        padding: 19px 0;
+        color: #FFF;
+        font-size: 12px;
+        font-family: @baseFont2;
+        a{
+            color: #FFF;
+        }
+        ul{
+            li{
+                a{
+                    padding: 0 12px;
+                    text-transform: uppercase;
+                    &:hover{
+                        background-color: transparent;
+                    }
+                }
+                &+li{
+                    border-left: 1px solid  #FFF;
+                }
+            }
+        }
+    }
+    
+    .topFooter{
+        background: fade(#000,75%);
+        .line1,.line2{
+            padding: 45px 15px;
+        }
+        .line1{
+            border-bottom: 1px solid  #FFF;
+        }
+        .footFeatures{
+            .footFeature{
+                padding: 55px 20px;
+                color: #FFF;
+                text-transform: uppercase;
+                text-align: center;
+                .icon{
+                    img{
+                    }
+                }
+                .texts{
+                    padding-left: 20px;
+                    text-align: left;
+                    h4{
+                        font-size: 16px;
+                        font-family: @baseFont;
+                        margin: 0 0 10px;
+                    }
+                    h2{
+                        font-size: 32px;
+                        font-family: @baseFont;
+                        margin: 0;
+                    }
+                }
+                &:hover{
+                    background: fade(#000,60%);
+                }
+            }
+        }
+        .widget{
+            color: #FFF;
+            h4{
+                text-transform: uppercase;
+                font-size: 15.2px;
+                font-family: @baseFont;
+                margin: 0 0 25px;
+            }
+            p{
+                font-family: @baseFont2;
+                margin: 0 0 25px;
+                line-height: 26px;
+            }
+            ul.list-inline{
+                li{
+                    a{
+                        font-size: 14px;
+                        width: 30px;
+                        display: block;
+                        line-height: 30px;
+                        border: 1px solid  #FFF;
+                        color: #FFF;
+                        text-align: center;
+                        &:hover,&:focus{
+                            background: @baseColor14;
+                            border-color: @baseColor14;
+                        }
+                    }
+                }
+            }
+            ul.nav{
+                li{
+                    a{
+                        line-height: 30px;
+                        font-family: @baseFont2;
+                        color: #FFF;
+                        padding: 0;
+                        &:hover,&:focus{
+                            color: @baseColor;
+                            background-color: transparent;
+                        }
+                    }
+                }
+            }
+            .input-group{
+                margin-bottom: 25px;
+                border: 1px solid  #FFF;
+                padding: 10px;
+                .input-group-addon{
+                    color: #FFF;
+                    padding: 0 10px;
+                    line-height: 1;
+                    background-color: transparent;
+                    border: none;
+                }
+                input{
+                    padding: 0;
+                    font-family: @baseFont;
+                    font-size: 10px;
+                    color: #FFF; 
+                    background-color: transparent;
+                    border: none;
+                    line-height: 15px;
+                    height: auto;
+                    &:focus{
+                        box-shadow: none;
+                    }
+                    &::-moz-placeholder,
+                    &:-ms-input-placeholder,
+                    &::-webkit-input-placeholder{
+                        color: #FFF;
+                        opacity: 1;
+                    }
+                }
+            }            
+            input[type="submit"].form-control{
+                background: #000;
+                border-radius: 0;
+                text-transform: uppercase;
+                color: #FFF;
+                font-family: @baseFont;
+                .transition();
+                &:hover,&:focus{
+                    background:@baseColor;
+                    border-color: @baseColor;
+                }
+            }
+        }
+    }
+    &.footer2{
+        background: none #000;
+        .topFooter{
+            .line1,.line2{
+            }
+            .line1{
+            }
+            .footFeatures{
+                .footFeature{
+                    .icon{
+                        img{
+                        }
+                    }
+                    .texts{
+                        h4{
+                        }
+                        h2{
+                        }
+                    }
+                    &:hover{
+                    }
+                }
+            }
+            .widget{
+                h4{
+                }
+                p{
+                }
+                ul.list-inline{
+                    li{
+                        a{
+                            &:hover,&:focus{
+                            }
+                        }
+                    }
+                }
+                ul.nav{
+                    li{
+                        a{
+                            &:hover,&:focus{
+                            }
+                        }
+                    }
+                }
+                .input-group{
+                    .input-group-addon{
+                    }
+                    input{
+                        &:focus{
+                        }
+                        &::-moz-placeholder,
+                        &:-ms-input-placeholder,
+                        &::-webkit-input-placeholder{
+                        }
+                    }
+                }            
+                input[type="submit"].form-control{
+                    background: @baseColor;
+                    border-color: transparent;
+                    &:hover,&:focus{
+                        background:@baseColor4;
+                        border-color: transparent;
+                    }
+                }
+            }
+        }
+        
+        .copyRight{
+            background: @baseColor4;
+            a{
+            }
+            ul{
+                li{
+                    a{
+                        &:hover{
+                        }
+                    }
+                    &+li{
+                    }
+                }
+            }
+        }
+    }
+}

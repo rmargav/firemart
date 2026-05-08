@@ -1,0 +1,174 @@
+.login{
+    margin-bottom: 70px;
+    h4.heading{
+        margin-bottom: 30px;
+    }
+    .loginInner{
+        margin: 0;
+        padding: 40px 0;
+        border: 1px solid @baseColor7;
+        label{
+            font-family: @baseFont2;
+            font-weight: normal;
+            color: @baseColor5;
+        }
+        .loginForm{
+            padding: 0 40px;
+            .form-group{
+                margin-bottom: 30px;                
+                .form-control{
+                    border-radius: 0;
+                    box-shadow: none;
+                }
+                &:last-child{
+                    padding-top: 10px;
+                    line-height: 30px;
+                    margin-bottom: 0;
+                    a{
+                        color: @baseColor;
+                        font-family: @baseFont2;
+                        margin-left: 20px;
+                        font-size: 12px;
+                    }                    
+                }
+            }
+        }
+        .accountStart{
+            padding: 0 40px;
+            h3{
+                font-size: 22px;
+                font-family: @baseFont2;
+                color: @baseColor4;
+                font-weight: 600;
+                margin-bottom: 15px;
+            }
+            label{
+                margin-bottom: 20px;
+            }
+        }
+        .btn{
+            padding: 0 15px;
+        }
+    }
+}
+
+
+.orderSummaryInner{
+    padding: 20px 40px;
+    table{
+        text-transform: uppercase;
+        thead{
+            font-family: @baseFont;
+            font-size: 16px;
+            color: @baseColor4;
+            border-bottom: 1px solid @baseColor7;
+            tr{
+                th{
+                    line-height: 30px;
+                    border: none;
+                    padding: 0 0 5px;
+                    &:last-child{
+                        text-align: right;
+                    }
+                }
+            }
+        }
+        tbody{
+            color: @baseColor5;
+            font-family: @baseFont2;
+            border-bottom: 1px solid @baseColor7;
+            padding: 10px 0;
+            tr{                
+                td{
+                    line-height: 30px;
+                    border: none;
+                    padding: 0;
+                    &:last-child{
+                        text-align: right;
+                    }
+                }
+                &:first-child{
+                    td{
+                        padding-top: 5px;
+                    }
+                }
+                &:last-child{
+                    td{
+                        padding-bottom: 5px;
+                    }
+                }
+            }
+        }
+        tfoot{
+            tr{
+                color: @baseColor4;
+                font-family: @baseFont2;
+                font-size: 14px;               
+                td{
+                    line-height: 30px;
+                    border: none;
+                    padding: 0;
+                    &:last-child{
+                        text-align: right;
+                    }
+                }
+                &:nth-child(2){
+                    font-weight: 600;
+                }
+                &:last-child{
+                    font-family: @baseFont;
+                    font-size: 16px;
+                    font-weight: bold;
+                }
+                &:first-child{
+                    td{
+                        padding-top: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*Checkout Form*/
+.checkoutForm{
+    .form-control{
+        border-radius: 0;
+        margin-bottom: 20px;
+    }
+    #shippingAddressEscape{
+        float: left;
+        &+ label{
+            font-family: @baseFont2;
+            color: #000;
+            font-size: 14px;
+            font-weight: normal;
+            margin-left: 10px;
+        }
+    }
+    .paymentMethodMode{
+        margin-top: 70px;
+        h4{
+            margin-bottom: 30px;
+        }
+        label{
+            margin-bottom: 30px;
+            font-family: @baseFont2;
+            font-weight: normal;
+            color: @baseColor4;
+            display: block;
+            p{
+                color: @baseColor5;
+                padding-left: 35px;
+                margin-top: 5px;
+            }
+            input{
+                margin-right: 20px;
+                float: left;
+            }
+        }
+    }
+    button[type="submit"]{
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,50 @@
+#breadcrumbRow{
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    h2{
+        background: url("../images/pageCover.png") no-repeat scroll center 0 transparent;
+        background-size: cover;
+        font-size: 32px;
+        font-family: @baseFont;
+        line-height: 198px;
+        height: 198px;
+        text-align: center;
+        margin: 0;
+    }
+    .pageTitle{
+        background: @baseColor;
+        h4{
+            font-family: @baseFont;
+            line-height: 50px;
+            margin: 0;
+        }
+        ul{
+            background-color: transparent;
+            margin: 0;
+            padding: 0;
+            line-height: 50px;
+            li{
+                font-family: @baseFont;
+                color: #FFF;
+                &+ li{
+                    &:before{
+                        content: "\f105";
+                        display: inline-block;
+                        font: normal normal normal 14px/1 FontAwesome;
+                        font-size: inherit;
+                        text-rendering: auto;
+                            -webkit-font-smoothing: antialiased;
+                            -moz-osx-font-smoothing: grayscale;
+                        transform: translate(0, 0);
+                        color: #FFF;
+                    }
+                }
+                a{
+                    font-family: @baseFont;
+                    color: #FFF;
+                }
+            }
+        }
+    }
+}

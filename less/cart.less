@@ -1,0 +1,194 @@
+.cartPage{
+    .pageHeading{
+        margin-bottom: 50px;
+    }
+}
+.cartTable{
+    margin-bottom: 50px;
+    .table{
+        thead{
+            text-transform: uppercase;
+            tr{
+                th{
+                    padding: 17px;
+                    line-height: 1;
+                    border: 1px solid @baseColor7;
+                    border-top: 1px solid @baseColor7 !important;
+                    font-family: @baseFont;
+                    font-weight: bold;
+                    color: @baseColor4;
+                    white-space: nowrap;
+                    &:first-child{
+                        width: 160px;
+                    }
+                    &:nth-child(2){
+                        width: 540px;
+                    }
+                }
+            }
+        }
+        tbody{
+            tr{
+                td{
+                    padding: 20px;
+                    line-height: 1;
+                    border: 1px solid @baseColor7;
+                    text-align: center;
+                    white-space: nowrap;
+                    &:first-child{
+                        width: 160px;
+                        text-align: left;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                    &:nth-child(2){
+                        width: 540px;
+                        text-align: left;                        
+                    }
+                    &.price{
+                        font-size: 18px;
+                        font-family: @baseFont;
+                        line-height: 1.2;
+                        color: @baseColor4;
+                        del{
+                            display: block;
+                            color: @baseColor5;
+                        }
+                    }
+                    .edit{
+                        display: inline-block;
+                        width: 40px;
+                        line-height: 40px;
+                        background: @baseColor;
+                        color: #FFF;
+                        text-align: center;
+                        font-size: 18px;
+                    }
+                    .descList{
+                        dl{
+                            margin: 0;
+                        }
+                    }
+                    .heading{
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+        }
+        tfoot{
+            tr{
+                td{
+                    padding: 20px;
+                    width: 100%;
+                    line-height: 1;
+                    border: 1px solid @baseColor7;
+                    a.fright{
+                        margin-left: 30px;
+                        border-color: @baseColor7;
+                        color: @baseColor5;
+                        &:hover{
+                            background-color: transparent;
+                            border-color: @baseColor;
+                        }
+                    }
+                }
+            }            
+        }
+    }
+}
+
+.discountCupon{
+    border: 1px solid @baseColor7;
+    padding: 20px;
+    .heading{
+        margin-bottom: 10px;
+    }
+    p{
+        color: @baseColor5;
+        margin-bottom: 10px;
+    }
+    .form-control{
+        border-radius: 0;
+        margin-bottom: 20px;
+        box-shadow: none;
+    }
+    .btn{
+        padding: 0 15px;
+    }    
+}
+
+.shippingTax{
+    border: 1px solid @baseColor7;
+    padding: 20px;
+    .heading{
+        margin-bottom: 10px;
+    }
+    p{
+        color: @baseColor5;
+        margin-bottom: 10px;
+    }
+    .form-control{
+        border-radius: 0;
+        margin-bottom: 20px;
+        box-shadow: none;
+    }
+    .countrySelect{
+        &.bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn){
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        .btn{
+            border-color: @baseColor7;
+            color: @baseColor5;
+            padding: 0 15px;
+            line-height: 28px;
+            font-family: @baseFont2;
+        }
+    }
+    label{
+        font-family: @baseFont2;
+        font-size: 12px;
+        font-weight: normal;
+        color: @baseColor4;
+        margin: 0 0 5px;
+    }
+    .form-group{
+        margin: 0;
+    }
+    .btn{        
+        padding: 0 15px;
+    }    
+}
+
+.totalCheckout{
+    text-align: right;
+    .link{
+        display: block;
+        line-height: 1;
+        color: @baseColor5;
+        font-family: @baseFont2;
+        margin-top: 10px;
+    }
+    .descList{
+        dl{
+            dt,dd{
+                text-align: right;
+                font-family: @baseFont2;
+                color: @baseColor5;
+                font-size: 14px;
+                font-weight: normal;
+                &:last-child,&.gt{
+                    color: @baseColor4;
+                    font-size: 16px;
+                    font-family: @baseFont;
+                    font-weight: 500;
+                    margin-top: 5px;
+                }
+            }
+            dt{
+                width: 70%;
+            }
+        }
+    }
+}

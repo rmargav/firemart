@@ -1,0 +1,62 @@
+.proMedia{
+    margin: 0;
+    .media{
+        margin: 0;
+        padding: 20px 0;
+        & + .media{
+            border-top: 1px solid  #cfdae3;
+        }
+        .media-left{
+            padding: 0;
+            a{
+                width: 84px;
+                height: 84px;
+                display: block;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+        .media-body{
+            padding-left: 20px;
+            h6{
+            }
+            h5{
+                color: @baseColor;
+                margin: 0;
+                del{
+                    margin-right: 10px;
+                    color: @baseColor4;
+                }
+                
+            }
+        }
+    }
+    &.topRated{        
+        .media-body{
+            padding-left: 20px;
+            h6{
+                margin-bottom: 0;
+            }
+            h5{
+                color: @baseColor;
+                del{
+                    margin-right: 10px;
+                    color: @baseColor4;
+                }
+                
+            }
+            .proRates{
+                margin: 0;
+                li{
+                    line-height: 40px;
+                    padding: 0;
+                    color: @baseColor5;
+                    &.rates{
+                        color: @baseColor4;
+                    }
+                }
+            }
+        }
+    }
+}
