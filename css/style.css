@@ -131,7 +131,7 @@ button:hover {
   font-family: 'Open Sans', sans-serif;
 }
 #header .top_menus .nav li a:hover {
-  color: #3ab54a;
+  color: #ED3237;
   background-color: transparent;
 }
 #header .top_menus .nav li + li {
@@ -201,7 +201,7 @@ button:hover {
   border-top: 1px solid rgba(220, 220, 220, 0.5);
 }
 #header .logo_line .searchSec .searchForm .input-group .searchIco {
-  background: none #3ab54a;
+  background: none #ED3237;
 }
 #header .logo_line .searchSec .searchForm .input-group .searchIco button {
   border: none;
@@ -247,7 +247,7 @@ button:hover {
   width: 20px;
   line-height: 20px;
   border-radius: 100%;
-  background: #3ab54a;
+  background: #ED3237;
   padding: 0;
   text-align: center;
   font-weight: lighter;
@@ -274,7 +274,7 @@ button:hover {
   border-color: transparent;
 }
 #header .navbar .navbar-header button.collapsed {
-  background: #3ab54a;
+  background: #ED3237;
 }
 #header .navbar .navbar-header button:hover,
 #header .navbar .navbar-header button:focus {
@@ -293,19 +293,19 @@ button:hover {
 }
 #header .navbar #mainNav .nav li a:hover {
   box-shadow: none;
-  background: #3ab54a;
+  background: #ED3237;
   color: #FFF;
 }
 #header .navbar #mainNav .nav li.active a,
 #header .navbar #mainNav .nav li.open a {
   box-shadow: none;
-  background: #3ab54a;
+  background: #ED3237;
   color: #FFF;
 }
 #header .navbar #mainNav .nav li.dropdown .dropdown-menu,
 #header .navbar #mainNav .nav li.open .dropdown-menu {
   border: 0;
-  border-bottom: 1px solid #3ab54a;
+  border-bottom: 1px solid #ED3237;
   border-radius: 0;
   padding: 0;
   min-width: 195px;
@@ -334,7 +334,7 @@ button:hover {
 }
 #header .navbar #mainNav .nav li.dropdown .dropdown-menu li a:hover,
 #header .navbar #mainNav .nav li.open .dropdown-menu li a:hover {
-  color: #3ab54a;
+  color: #ED3237;
 }
 #header .navbar #mainNav .nav li.dropdown.megaMenu,
 #header .navbar #mainNav .nav li.open.megaMenu {
@@ -361,7 +361,7 @@ button:hover {
 }
 #header .navbar #mainNav .nav li.dropdown.megaMenu .dropdown-menu li .listTitle a,
 #header .navbar #mainNav .nav li.open.megaMenu .dropdown-menu li .listTitle a {
-  color: #3ab54a;
+  color: #ED3237;
   float: right;
   display: inline;
   font-family: 'Montserrat', sans-serif;
@@ -473,7 +473,7 @@ button:hover {
 }
 #header .navbar #mainNav .nav li.dropdown.megaMenu .dropdown-menu li.boxMenu .megaInnerMenu li a:hover .row,
 #header .navbar #mainNav .nav li.open.megaMenu .dropdown-menu li.boxMenu .megaInnerMenu li a:hover .row {
-  color: #3ab54a;
+  color: #ED3237;
 }
 #header .navbar #mainNav .nav li.dropdown.megaMenu .dropdown-menu li.boxMenu .megaInnerMenu li a:hover .row.imgHov .hovCnt,
 #header .navbar #mainNav .nav li.open.megaMenu .dropdown-menu li.boxMenu .megaInnerMenu li a:hover .row.imgHov .hovCnt {
@@ -509,7 +509,7 @@ button:hover {
   border: none;
   width: 100%;
   margin: 0;
-  background: #3ab54a;
+  background: #ED3237;
 }
 #header2 .menu .navbar .navbar-header button:hover,
 #header2 .menu .navbar .navbar-header button:focus,
@@ -517,7 +517,7 @@ button:hover {
   background: #222222;
 }
 #header2 .menu .navbar .navbar-header button[aria-expanded="false"] {
-  background: #3ab54a;
+  background: #ED3237;
 }
 #header2 .menu .navbar #mainNav2 ul li a {
   line-height: 70px;
@@ -563,7 +563,7 @@ button:hover {
 }
 #header2 .menu .navbar #mainNav2 ul li.dropdown ul li a:hover,
 #header2 .menu .navbar #mainNav2 ul li.open ul li a:hover {
-  color: #3ab54a;
+  color: #ED3237;
 }
 #header2 .logo {
   padding: 0;
@@ -757,7 +757,7 @@ button:hover {
   font-size: 18px;
 }
 #homeBanners2 .newYearSale {
-  background: #3ab54a;
+  background: #ED3237;
   color: #FFF;
   text-align: center;
   padding: 20px;
@@ -778,7 +778,7 @@ button:hover {
   margin-bottom: -15px;
 }
 #homeBanners2 .newYearSale h5 span {
-  background: #3ab54a;
+  background: #ED3237;
   padding: 0 25px;
   display: inline-block;
   line-height: 30px;
@@ -913,7 +913,7 @@ button:hover {
   width: 0;
   height: 0;
   overflow: hidden;
-  background: rgba(255, 255, 255, 0.644);
+  background: #37343581;
   padding-top: 85px;
   transition: all 300ms ease-in-out 0s;
 }
@@ -1060,7 +1060,7 @@ button:hover {
 }
 .singleProduct .flexslider#productImageSliderNav .flex-direction-nav a:hover,
 .singleProduct .flexslider#productImageSliderNav .flex-direction-nav a:focus {
-  background: #3ab54a;
+  background: #ED3237;
 }
 .singleProduct .heading {
   margin-bottom: 10px;
@@ -1124,7 +1124,7 @@ button:hover {
   margin-right: 10px;
 }
 .singleProduct .wce li a:hover {
-  color: #3ab54a;
+  color: #ED3237;
 }
 .singleProduct .qtyAtc {
   margin-bottom: 30px;
@@ -1236,13 +1236,13 @@ button:hover {
   line-height: 38px;
   display: inline-block;
   margin: 0 5px;
-  color: #3ab54a;
-  border: 1px solid #3ab54a;
+  color: #ED3237;
+  border: 1px solid #ED3237;
   border-radius: 0;
 }
 .product2 .thumbnail .imgHov .hovArea .getlike {
   padding: 0 40px;
-  background: #3ab54a;
+  background: #ED3237;
   margin-bottom: -45px;
   transition: all 300ms ease-in-out 0s;
 }
@@ -1269,7 +1269,7 @@ button:hover {
 .product2 .thumbnail .productIntro .heading span {
   float: right;
   font-size: 14px;
-  color: #3ab54a;
+  color: #ED3237;
 }
 .product2 .thumbnail .productIntro .heading span del {
   color: #777777;
@@ -1292,7 +1292,7 @@ button:hover {
   color: #222222;
 }
 .product2 .thumbnail .productIntro .stars .vote {
-  color: #3ab54a;
+  color: #ED3237;
 }
 .product2 .thumbnail:hover .imgHov .hovArea {
   bottom: 0;
@@ -1725,7 +1725,7 @@ footer .topFooter .widget ul.nav li a {
 }
 footer .topFooter .widget ul.nav li a:hover,
 footer .topFooter .widget ul.nav li a:focus {
-  color: #3ab54a;
+  color: #ED3237;
   background-color: transparent;
 }
 footer .topFooter .widget .input-group {
@@ -1769,14 +1769,14 @@ footer .topFooter .widget input[type="submit"].form-control {
 }
 footer .topFooter .widget input[type="submit"].form-control:hover,
 footer .topFooter .widget input[type="submit"].form-control:focus {
-  background: #3ab54a;
-  border-color: #3ab54a;
+  background: #ED3237;
+  border-color: #ED3237;
 }
 footer.footer2 {
   background: none #000;
 }
 footer.footer2 .topFooter .widget input[type="submit"].form-control {
-  background: #3ab54a;
+  background: #ED3237;
   border-color: transparent;
 }
 footer.footer2 .topFooter .widget input[type="submit"].form-control:hover,
@@ -1959,7 +1959,7 @@ footer.footer2 .copyRight {
   font-weight: bold;
 }
 #breadcrumbRow h2 {
-  background: url("../images/pageCover.png") no-repeat scroll center 0 transparent;
+  background: url("../images/cover.jpg") no-repeat scroll center 0 transparent;
   background-size: cover;
   font-size: 32px;
   font-family: 'Montserrat', sans-serif;
@@ -1969,7 +1969,7 @@ footer.footer2 .copyRight {
   margin: 0;
 }
 #breadcrumbRow .pageTitle {
-  background: #3ab54a;
+  background: #ED3237;
 }
 #breadcrumbRow .pageTitle h4 {
   font-family: 'Montserrat', sans-serif;
@@ -2002,48 +2002,33 @@ footer.footer2 .copyRight {
   color: #FFF;
 }
 /*----------------------------------------------------------------*/
-#whatWeDid .tab_menu .row {
-  height: 390px;
-  background: url('../images/wwd.png') no-repeat scroll center 0;
-  background-size: cover;
-  margin-right: 5px;
-  position: relative;
+#whatWeDid {
+    padding: 60px 0;
 }
-#whatWeDid .tab_menu .row .nav {
-  position: absolute;
-  right: 15px;
-  top: calc(50% - 85px);
+
+#whatWeDid .custom-img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
 }
-#whatWeDid .tab_menu .row .nav li + li {
-  margin-top: 3px;
+
+#whatWeDid .content-box {
+    padding: 20px;
+    margin-top: -45px;
 }
-#whatWeDid .tab_menu .row .nav li a {
-  display: inline-block;
-  background: #dcdcdc;
-  color: #FFF;
-  font-size: 24px;
-  font-family: 'Montserrat', sans-serif;
-  line-height: 40px;
-  padding: 0 35px;
-  min-width: 125px;
+
+#whatWeDid .content-box h3 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #222;
+    margin-bottom: 20px;
 }
-#whatWeDid .tab_menu .row .nav li.active a {
-  background: #3ab54a;
-}
-#whatWeDid .tab-contents .tab-content {
-  padding-left: 5px;
-}
-#whatWeDid .tab-contents .tab-content .tab-pane h3 {
-  font-family: 'Montserrat', sans-serif;
-  text-transform: uppercase;
-  color: #222222;
-  margin: 35px 0 30px;
-}
-#whatWeDid .tab-contents .tab-content .tab-pane p {
-  margin-bottom: 20px;
-  font-family: 'Open Sans', sans-serif;
-  color: #777777;
-  line-height: 24px;
+
+#whatWeDid .content-box p {
+    font-family: 'Open Sans', sans-serif;
+    color: #777;
+    line-height: 24px;
+    margin-bottom: 15px;
 }
 /*----------------------------------------------------------------*/
 #hww h3 {
@@ -2061,7 +2046,7 @@ footer.footer2 .copyRight {
   text-transform: uppercase;
 }
 #hww .col-sm-4 h5 span {
-  color: #3ab54a;
+  color: #ED3237;
   margin-right: 5px;
 }
 #hww .col-sm-4 p {
@@ -2075,7 +2060,7 @@ footer.footer2 .copyRight {
   margin-top: 40px;
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
-  color: #3ab54a;
+  color: #ED3237;
   font-weight: bold;
   margin-bottom: 25px;
 }
@@ -2088,7 +2073,7 @@ footer.footer2 .copyRight {
 #ourGreatServices .col-sm-4 .middleBox a {
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
-  color: #3ab54a;
+  color: #ED3237;
   line-height: 1;
 }
 #ourGreatServices .col-sm-4 .middleBox a i {
@@ -2119,7 +2104,7 @@ footer.footer2 .copyRight {
 #ourGreatServices .col-sm-4 .sideBox .icoPlus a {
   padding-right: 64px;
   line-height: 50px;
-  background: #3ab54a;
+  background: #ED3237;
   display: inline-block;
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
@@ -2143,7 +2128,7 @@ footer.footer2 .copyRight {
   text-transform: uppercase;
 }
 #contactBanner {
-  background: #3ab54a;
+  background: #ED3237;
   padding: 50px 0;
 }
 #contactBanner .container .row {
@@ -2239,19 +2224,19 @@ footer.footer2 .copyRight {
   margin-top: 0;
 }
 #pricing .pricing.active .pricingTitle {
-  background: #3ab54a;
+  background: #ED3237;
 }
 #pricing .pricing.active .joinNow {
-  background: #3ab54a;
+  background: #ED3237;
 }
 #pricing .pricing:hover {
   cursor: pointer;
 }
 #pricing .pricing:hover .pricingTitle {
-  background: #3ab54a;
+  background: #ED3237;
 }
 #pricing .pricing:hover .joinNow {
-  background: #3ab54a;
+  background: #ED3237;
 }
 #pricing .pricing:hover.active {
   margin-top: 0;
@@ -2263,7 +2248,7 @@ footer.footer2 .copyRight {
   background: #333;
 }
 #pricing .pricing:hover.active .joinNow a {
-  background: #3ab54a;
+  background: #ED3237;
 }
 /*----------------------------------------------------------------*/
 #page404 {
@@ -2353,11 +2338,11 @@ h6.heading {
   color: #FFF;
 }
 .btn.btn-primary {
-  border: 1px solid #3ab54a;
-  color: #3ab54a;
+  border: 1px solid #ED3237;
+  color: #ED3237;
 }
 .btn.btn-primary.filled {
-  background: #3ab54a;
+  background: #ED3237;
   color: #FFF;
 }
 /*Dropcaps*/
@@ -2369,23 +2354,23 @@ h6.heading {
   margin-top: 5px;
   font-size: 40px;
   font-family: 'Montserrat', sans-serif;
-  border: 2px solid #3ab54a;
+  border: 2px solid #ED3237;
   color: #222222;
 }
 .dropcap.dropcaFill:first-letter {
-  background: #3ab54a;
+  background: #ED3237;
   color: #FFF;
 }
 /*ToolTips*/
 span[data-toggle="tooltip"] {
-  color: #3ab54a;
+  color: #ED3237;
   cursor: pointer;
 }
 .tooltip .tooltip-arrow {
   width: 15px;
   height: 15px;
   border: none;
-  background: #3ab54a;
+  background: #ED3237;
   transform: rotate(45deg);
 }
 .tooltip.in {
@@ -2393,7 +2378,7 @@ span[data-toggle="tooltip"] {
 }
 .tooltip .tooltip-inner {
   border-radius: 0;
-  background: #3ab54a;
+  background: #ED3237;
   font-family: 'Open Sans', sans-serif;
   color: #FFF;
   padding: 5px 35px;
@@ -2402,8 +2387,8 @@ span[data-toggle="tooltip"] {
 }
 /*HighLights*/
 abbr[title] {
-  color: #3ab54a;
-  border-bottom: 1px solid #3ab54a;
+  color: #ED3237;
+  border-bottom: 1px solid #ED3237;
 }
 .primary-bg {
   background: #222222;
@@ -2411,7 +2396,7 @@ abbr[title] {
   padding: 0 1px;
 }
 .base-bg {
-  background: #3ab54a;
+  background: #ED3237;
   color: #FFF;
   padding: 0 1px;
 }
@@ -2502,7 +2487,7 @@ abbr[title] {
 }
 .shortcodeTabContent .tab-pane .reviewForm .ratingStars .glyphicon {
   font-size: 22px;
-  color: #3ab54a;
+  color: #ED3237;
 }
 .shortcodeTabContent .tab-pane .additionInfoRow {
   line-height: 40px;
@@ -2599,7 +2584,7 @@ abbr[title] {
   overflow: visible;
 }
 .custom_progress .progress-bar {
-  background: none #3ab54a;
+  background: none #ED3237;
   box-shadow: none;
   position: relative;
 }
@@ -2639,18 +2624,18 @@ abbr[title] {
 .customAlert i {
   width: 40px;
   line-height: 38px;
-  border: 1px solid #3ab54a;
+  border: 1px solid #ED3237;
   border-radius: 100%;
   text-align: center;
   margin-left: 5px;
   margin-right: 15px;
 }
 .customAlert.success-alert button {
-  color: #3ab54a;
+  color: #ED3237;
 }
 .customAlert.success-alert i {
-  color: #3ab54a;
-  border-color: #3ab54a;
+  color: #ED3237;
+  border-color: #ED3237;
 }
 .customAlert.error-alert button {
   color: #fc4a4a;
@@ -2703,7 +2688,7 @@ abbr[title] {
 }
 .testimonialStyle2 .clientInfo .clientName {
   text-transform: uppercase;
-  color: #3ab54a;
+  color: #ED3237;
   padding-top: 10px;
 }
 .testimonialStyle2 .clientInfo .clientName:before {
@@ -2765,7 +2750,7 @@ abbr[title] {
 /*Testimonial Style 3*/
 .testimonialStyle4 {
   margin-top: 30px;
-  border-bottom: 2px solid #3ab54a;
+  border-bottom: 2px solid #ED3237;
   padding: 30px 40px 20px;
   background: #FFF;
 }
@@ -2781,7 +2766,7 @@ abbr[title] {
   margin-bottom: 20px;
 }
 .testimonialStyle4 .clientName {
-  color: #3ab54a;
+  color: #ED3237;
   font-family: 'Montserrat', sans-serif;
   line-height: 24px;
   text-transform: uppercase;
@@ -2804,7 +2789,7 @@ abbr[title] {
   width: 100%;
 }
 #mapBox #content .mapInfoWindowRowInner {
-  border: 1px solid #3ab54a;
+  border: 1px solid #ED3237;
   padding: 10px 20px;
   text-align: center;
 }
@@ -3140,7 +3125,7 @@ abbr[title] {
   background: #c2ac9b;
 }
 .colorSelect input[type="radio"]:checked + label {
-  border-color: #3ab54a;
+  border-color: #ED3237;
   background: rgba(58, 181, 74, 0.3);
 }
 /*Centered Tab Menu*/
@@ -3198,7 +3183,7 @@ abbr[title] {
   color: #222222;
 }
 .featuresTexts .media-body h5 {
-  color: #3ab54a;
+  color: #ED3237;
   margin-top: 5px;
 }
 .featuresTexts .media-body p {
@@ -3208,7 +3193,7 @@ abbr[title] {
   margin-bottom: 5px;
 }
 .featuresTexts .media-body a {
-  color: #3ab54a;
+  color: #ED3237;
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
   font-size: 12px;
@@ -3277,7 +3262,7 @@ abbr[title] {
   width: 100%;
 }
 .contactForm #success span {
-  color: #3ab54a;
+  color: #ED3237;
 }
 .contactForm #error span {
   color: #fc4a4a;
@@ -3310,8 +3295,8 @@ abbr[title] {
   transition: all 300ms ease-in-out 0s;
 }
 .blog .titleRow .date:hover {
-  color: #3ab54a;
-  border-color: #3ab54a;
+  color: #ED3237;
+  border-color: #ED3237;
 }
 .blog .titleRow .date span {
   font-size: 18px;
@@ -3326,7 +3311,7 @@ abbr[title] {
   transition: all 300ms ease-in-out 0s;
 }
 .blog .titleRow .titlePart .blogTitle:hover {
-  color: #3ab54a;
+  color: #ED3237;
 }
 .blog .titleRow .titlePart p {
   color: #777777;
@@ -3337,7 +3322,7 @@ abbr[title] {
   color: #777777;
 }
 .blog .titleRow .titlePart p a:hover {
-  color: #3ab54a;
+  color: #ED3237;
 }
 .blog .titleRow .titlePart p span {
   margin: 0 15px;
@@ -3452,7 +3437,7 @@ abbr[title] {
   margin-bottom: 0;
 }
 .login .loginInner .loginForm .form-group:last-child a {
-  color: #3ab54a;
+  color: #ED3237;
   font-family: 'Open Sans', sans-serif;
   margin-left: 20px;
   font-size: 12px;
@@ -3635,7 +3620,7 @@ abbr[title] {
   display: inline-block;
   width: 40px;
   line-height: 40px;
-  background: #3ab54a;
+  background: #ED3237;
   color: #FFF;
   text-align: center;
   font-size: 18px;
@@ -3659,7 +3644,7 @@ abbr[title] {
 }
 .cartTable .table tfoot tr td a.fright:hover {
   background-color: transparent;
-  border-color: #3ab54a;
+  border-color: #ED3237;
 }
 .discountCupon {
   border: 1px solid #dcdcdc;
@@ -3777,7 +3762,7 @@ abbr[title] {
   padding-left: 20px;
 }
 .proMedia .media .media-body h5 {
-  color: #3ab54a;
+  color: #ED3237;
   margin: 0;
 }
 .proMedia .media .media-body h5 del {
@@ -3791,7 +3776,7 @@ abbr[title] {
   margin-bottom: 0;
 }
 .proMedia.topRated .media-body h5 {
-  color: #3ab54a;
+  color: #ED3237;
 }
 .proMedia.topRated .media-body h5 del {
   margin-right: 10px;
@@ -4015,7 +4000,7 @@ footer .topFooter .widget .contact-info-list li.align-center {
 }
 
 footer .topFooter .widget .contact-info-list li i {
-    color: #3ab54a; 
+    color: #ED3237; 
     font-size: 16px;
     margin-right: 15px;
     margin-top: 4px;
@@ -4035,7 +4020,7 @@ footer .topFooter .widget .contact-info-list li a {
 }
 
 footer .topFooter .widget .contact-info-list li a:hover {
-    color: #3ab54a;
+    color: #ED3237;
 }
 
 /* Style for Inquiry sub-headings (Sales Head / Email) */
@@ -4100,7 +4085,7 @@ footer .copyRight .fcenter {
 
 .fm-card:hover {
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
-    border-color: #3ab54a;
+    border-color: #ED3237;
     transform: translateY(-5px);
 }
 
@@ -4169,14 +4154,14 @@ footer .copyRight .fcenter {
     margin-top: auto; /* Always pushes button to the bottom */
     font-size: 14px;
     font-weight: 700;
-    color: #3ab54a;
+    color: #ED3237;
     text-transform: uppercase;
     text-decoration: none;
     transition: all 0.3s ease;
 }
 
 .fm-card:hover .fm-explore {
-    color: #2b8a38;
+    color: #2176BB;
 }
 
 .fm-explore i {
@@ -4366,7 +4351,7 @@ footer .copyRight .fcenter {
     font-family: 'FontAwesome';
     position: absolute;
     right: 20px;
-    color: #3ab54a;
+    color: #ED3237;
 }
 
 .partner-faq-section .panel-title a.collapsed:after {
@@ -4375,7 +4360,7 @@ footer .copyRight .fcenter {
 }
 
 .partner-faq-section .panel-title a:hover {
-    color: #3ab54a;
+    color: #ED3237;
 }
 
 .partner-faq-section .panel-body {
@@ -4401,4 +4386,37 @@ footer .copyRight .fcenter {
 .partner-logo-item img {
     width: 100%;
     height: auto;
+}
+
+/* ========================================================
+   FEATURED PRODUCTS MAIN BUTTON
+   ======================================================== */
+.main-featured-btn {
+    display: inline-block;
+    background-color: #ED3237; 
+    color: #ffffff !important;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none !important;
+    padding: 12px 35px;
+    border-radius: 3px;
+    border: 2px solid #ED3237;
+    transition: all 0.3s ease-in-out;
+}
+
+.main-featured-btn i {
+    margin-left: 8px;
+    transition: transform 0.3s ease;
+}
+
+/* Button Hover Effect */
+.main-featured-btn:hover {
+    background-color: transparent;
+    color: #ED3237 !important;
+}
+
+.main-featured-btn:hover i {
+    transform: translateX(5px); /* Arrow slides slightly to the right */
 }
