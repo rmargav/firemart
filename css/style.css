@@ -4327,3 +4327,78 @@ footer .copyRight .fcenter {
         font-size: 14px;
     }
 }
+
+/* ========================================================
+   PARTNERS FAQ ACCORDION
+   ======================================================== */
+.partner-faq-section {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+}
+
+.partner-faq-section .panel-default {
+    border-color: #eeeeee;
+    border-radius: 0;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.partner-faq-section .panel-heading {
+    background-color: #ffffff;
+    padding: 0;
+}
+
+.partner-faq-section .panel-title a {
+    display: block;
+    padding: 18px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #222222;
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    position: relative;
+}
+
+/* Add a + and - icon to the accordion headers */
+.partner-faq-section .panel-title a:after {
+    content: "\f068"; /* FontAwesome minus */
+    font-family: 'FontAwesome';
+    position: absolute;
+    right: 20px;
+    color: #3ab54a;
+}
+
+.partner-faq-section .panel-title a.collapsed:after {
+    content: "\f067"; /* FontAwesome plus */
+    color: #999999;
+}
+
+.partner-faq-section .panel-title a:hover {
+    color: #3ab54a;
+}
+
+.partner-faq-section .panel-body {
+    border-top: 1px solid #eeeeee !important;
+    background-color: #ffffff;
+    padding: 30px;
+    text-align: center;
+}
+
+/* Styling for the client logos inside the answers */
+.partner-logo-item {
+    display: inline-block;
+    max-width: 150px;
+    margin: 15px 25px;
+    vertical-align: middle;
+    transition: transform 0.3s ease;
+}
+
+.partner-logo-item:hover {
+    transform: scale(1.1);
+}
+
+.partner-logo-item img {
+    width: 100%;
+    height: auto;
+}
