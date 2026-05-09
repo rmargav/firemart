@@ -1496,100 +1496,92 @@ button:hover {
   left: calc(50% - 65px);
 }
 /*----------------------------------------------------------------*/
-#testimonialTabs {
-  background: url('../images/testimonial/bg.png') repeat scroll 0 0;
+/* ========================================================
+   INFINITE CLIENT LOGO SLIDER (PURE CSS)
+   ======================================================== */
+
+.logo-slider {
+    height: 120px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
 }
-#testiTab {
-  text-align: center;
-  border: none;
-  margin-bottom: 30px;
-  height: 114px;
+
+/* Creates a white fade effect on the left and right edges */
+.logo-slider::before, 
+.logo-slider::after {
+    background: linear-gradient(to right, rgba(249, 249, 249, 1) 0%, rgba(249, 249, 249, 0) 100%);
+    content: "";
+    height: 120px;
+    position: absolute;
+    width: 150px;
+    z-index: 2;
 }
-#testiTab li {
-  padding: 0 15px;
-  display: inline-block;
-  float: none;
+
+.logo-slider::before {
+    left: 0;
+    top: 0;
 }
-#testiTab li a {
-  position: relative;
-  padding: 0;
-  border: none;
-  width: 81px;
-  height: 81px;
-  margin: 0;
-  border-radius: 100%;
+
+.logo-slider::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
 }
-#testiTab li a img {
-  width: 100%;
+
+/* The track that holds the logos and moves them */
+.logo-slide-track {
+    /* 35s controls the speed. Lower = faster, Higher = slower */
+    animation: scroll 35s linear infinite; 
+    display: flex;
+    /* Formula: slide width (200px) * total number of slides (14) */
+    width: calc(200px * 14); 
 }
-#testiTab li a i {
-  position: absolute;
-  top: 57px;
-  right: 0;
-  font-size: 20px;
-  color: #3ab54a;
+
+/* Pause the slider if the user hovers their mouse over it */
+.logo-slide-track:hover {
+    animation-play-state: paused;
 }
-#testiTab li a:before,
-#testiTab li a:after {
-  content: '';
-  width: 0;
-  height: 0;
-  border-left: 14px solid transparent;
-  border-right: 14px solid transparent;
-  border-bottom: 14px solid transparent;
-  position: absolute;
-  margin: 0 auto;
-  display: block;
-  bottom: -31px;
-  left: calc(50% - 14px);
+
+/* Individual logo boxes */
+.logo-slider .slide {
+    height: 120px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
 }
-#testiTab li a:after {
-  border-bottom: 13px solid transparent;
-  bottom: -31.8px;
+
+/* Logo Image Styling */
+.logo-slider .slide img {
+    max-width: 100%;
+    max-height: 100%;
+
+    transition: all 0.3s ease-in-out;
 }
-#testiTab li.active a {
-  width: 114px;
-  height: 114px;
-  position: relative;
+
+/* Turn logo full color and opacity when hovered */
+.logo-slider .slide img:hover {
+    opacity: 1;
+    filter: grayscale(0%);
+    transform: scale(1.1); /* Slight zoom effect */
 }
-#testiTab li.active a i {
-  visibility: hidden;
+
+/* The actual sliding animation */
+@keyframes scroll {
+    0% { transform: translateX(0); }
+    /* Formula: slide width (-200px) * original number of slides (7) */
+    100% { transform: translateX(calc(-200px * 7)); } 
 }
-#testiTab li.active a:before,
-#testiTab li.active a:after {
-  border-bottom: 14px solid #cccccc;
-}
-#testiTab li.active a:after {
-  border-bottom: 13px solid  #FFF;
-}
-.testiTabContent .tab-pane {
-  max-width: 600px;
-  width: 95%;
-  padding: 30px 40px;
-  background: #FFF;
-  border-radius: 0;
-  margin: 0 auto;
-  border: 1px solid #cccccc;
-  text-align: center;
-}
-.testiTabContent .tab-pane h5 {
-  font-family: 'Montserrat', sans-serif;
-  text-transform: uppercase;
-}
-.testiTabContent .tab-pane h5.customerName {
-  font-weight: bold;
-  color: #3ab54a;
-  margin-top: 0;
-}
-.testiTabContent .tab-pane h5.customerType {
-  margin-bottom: 20px;
-  font-family: 'Open Sans', sans-serif;
-}
-.testiTabContent .tab-pane p {
-  color: #777777;
-  font-family: 'Open Sans', sans-serif;
-  margin-bottom: 30px;
-  line-height: 24px;
+
+/* Mobile Adjustments */
+@media (max-width: 767px) {
+    .logo-slider::before, 
+    .logo-slider::after {
+        width: 50px; /* Smaller fade edges on mobile */
+    }
 }
 /*----------------------------------------------------------------*/
 #brands .brands ul {
@@ -4076,7 +4068,7 @@ footer .copyRight .fcenter {
 /* 1. The Grid Layout */
 .fm-category-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Forces 3 columns exactly */
+    grid-template-columns: repeat(4, 1fr); /* Forces 3 columns exactly */
     gap: 30px; /* Perfect spacing between boxes */
     width: 100%;
 }
@@ -4194,4 +4186,144 @@ footer .copyRight .fcenter {
 
 .fm-card:hover .fm-explore i {
     transform: translateX(5px);
+}
+
+/* ========================================================
+   SLIDER TEXT, SUBHEADING & BUTTON ENHANCEMENTS
+   ======================================================== */
+
+#slider2 .sliderCont2 .slides .text_lines {
+    height: auto !important; 
+    padding: 30px 0 !important; 
+    top: 50% !important; 
+    transform: translateY(-50%) !important; 
+    text-align: left !important; /* Forces left alignment */
+}
+
+/* 1. Main Heading */
+#slider2 .sliderCont2 .slides .text_lines h3 {
+    font-size: 38px !important; 
+    font-weight: 700 !important; 
+    text-transform: none !important; 
+    line-height: 1.3 !important;
+    margin-bottom: 15px !important; 
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5); 
+}
+
+/* 2. Subheading Text */
+.slider-subtext {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 25px !important;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+    max-width: 700px; 
+    line-height: 1.6;
+}
+
+/* ========================================================
+   BUTTON HOVER ANIMATION (BULLETPROOF FIX)
+   ======================================================== */
+.slider-btn {
+    position: relative; 
+    display: inline-block;
+    background-color: transparent !important; /* Make button background transparent so layers show */
+    color: #000000 !important;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none !important;
+    padding: 12px 35px;
+    border-radius: 3px;
+    overflow: hidden; 
+    z-index: 1; /* Keeps the text layer firmly on top */
+    transition: color 0.4s ease-in-out !important; 
+}
+
+.slider-btn i {
+    margin-left: 8px;
+}
+
+/* Layer 1: The Default White Background (Bottom Layer) */
+.slider-btn::after {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: #ffffff;
+    z-index: -2; /* Sits underneath everything */
+}
+
+/* Layer 2: The Black Hover Swipe (Middle Layer) */
+.slider-btn::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: #000000;
+    z-index: -1; /* Sits above the white background, but safely BELOW the text */
+    transform: scaleX(0);
+    transform-origin: right; 
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Layer 3: The Text Color Change (Top Layer) */
+/* Added #slider2 here to forcefully override any stubborn template link colors */
+#slider2 .slider-btn:hover,
+.slider-btn:hover {
+    color: #ffffff !important; 
+}
+
+/* Trigger the left-to-right swipe */
+.slider-btn:hover::before {
+    transform: scaleX(1);
+    transform-origin: left; 
+}
+
+/* ========================================================
+   STAGGERED SLIDE-UP LOAD ANIMATION
+   ======================================================== */
+
+/* Step A: Hide the elements initially and push them down slightly */
+#slider2 .sliderCont2 .slides li .text_lines h3,
+#slider2 .sliderCont2 .slides li .text_lines .slider-subtext,
+#slider2 .sliderCont2 .slides li .text_lines .slider-btn {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.6s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+/* Step B: When Flexslider makes the slide active, slide them up into place */
+#slider2 .sliderCont2 .slides li.flex-active-slide .text_lines h3 {
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 0.2s; /* Loads first */
+}
+
+#slider2 .sliderCont2 .slides li.flex-active-slide .text_lines .slider-subtext {
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 0.4s; /* Loads second */
+}
+
+#slider2 .sliderCont2 .slides li.flex-active-slide .text_lines .slider-btn {
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 0.6s; /* Loads third */
+}
+
+/* Mobile Adjustments */
+@media (max-width: 767px) {
+    #slider2 .sliderCont2 .slides .text_lines h3 {
+        font-size: 24px !important;
+        margin-bottom: 10px !important;
+    }
+    .slider-subtext {
+        font-size: 14px;
+        margin-bottom: 20px !important;
+        padding-right: 15px; /* Keeps text from touching screen edge */
+    }
+    .slider-btn {
+        padding: 10px 25px;
+        font-size: 14px;
+    }
 }

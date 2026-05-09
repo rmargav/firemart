@@ -329,7 +329,7 @@ Base Fonts 2 : Open Sans // less variable @baseFont2
   #header2 {
     height: auto;
     padding-top: 0;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
   }
   #header2 .menu .navbar > .row {
     margin: 0 -15px;
