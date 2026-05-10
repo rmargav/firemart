@@ -4426,18 +4426,18 @@ PRODUCT SHOWCASE STYLING
 ========================================= */
 
 .productShowcase {
-    padding: 20px 0;
+    padding: 40px 0;
     background: #f8f8f8;
 }
 
 /* Main Product Row */
 .productItem {
-    /* margin-bottom: 80px; */
+    margin-bottom: 30px; /* Gives nice breathing room between the 12 boxes */
     background: #fff;
     border-radius: 18px;
     overflow: hidden;
     box-shadow: 0 12px 40px rgba(0,0,0,0.08);
-    padding: 10px;
+    padding: 20px 10px;
 
     /* Vertical center alignment */
     display: flex;
@@ -4449,12 +4449,9 @@ PRODUCT SHOWCASE STYLING
 /* Image Box */
 .productImageBox {
     text-align: center;
-
-    /* PERFECT CENTER ALIGN */
     display: flex;
     align-items: center;
     justify-content: center;
-
     min-height: 350px;
 }
 
@@ -4462,16 +4459,21 @@ PRODUCT SHOWCASE STYLING
 .productImageBox img {
     max-width: 90%;
     filter: drop-shadow(0 10px 25px rgba(0,0,0,0.12));
+    transition: transform 0.3s ease;
+}
+
+.productImageBox img:hover {
+    transform: scale(1.05);
 }
 
 /* Content Box */
 .productContentBox {
-    padding: 10px 25px;
+    padding: 10px 30px;
 }
 
 /* Product Heading */
 .productContentBox h2 {
-    font-size: 38px;
+    font-size: 34px;
     font-weight: 700;
     color: #222;
     margin-bottom: 22px;
@@ -4483,7 +4485,7 @@ PRODUCT SHOWCASE STYLING
     content: "";
     width: 70px;
     height: 4px;
-    background: #ff512f;
+    background: #e31837; /* Updated to your red */
     display: block;
     margin-top: 12px;
 }
@@ -4510,34 +4512,34 @@ PRODUCT SHOWCASE STYLING
 }
 
 .productFeatures li i {
-    color: #ff512f;
+    color: #e31837; /* Updated to your red */
     margin-right: 12px;
     font-size: 14px;
 }
 
 /* Button Styling */
 .productBtn {
-    background: #ff512f;
+    background: #e31837; /* Updated to your red */
     color: #fff;
-    padding: 10px 22px;
+    padding: 12px 28px;
     border-radius: 4px;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 600;
     letter-spacing: 0.5px;
     border: none;
     text-transform: uppercase;
     display: inline-block;
+    transition: background 0.3s ease;
 }
 
 .productBtn:hover {
-    background: #e63e1c;
+    background: #222222;
     color: #fff;
     text-decoration: none;
 }
 
 /* MOBILE RESPONSIVE */
 @media (max-width: 991px) {
-
     .productItem {
         display: block;
         padding: 30px 20px;
@@ -4553,10 +4555,73 @@ PRODUCT SHOWCASE STYLING
     }
 
     .productContentBox h2 {
-        font-size: 30px;
+        font-size: 28px;
     }
 
     .productItem {
-        margin-bottom: 50px;
+        margin-bottom: 40px;
+    }
+}
+
+/* =========================================
+   PREMIUM CATEGORY TITLE STYLING
+   ========================================= */
+
+.category-header-box {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.premium-category-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 42px;
+    font-weight: 800;
+    color: #222222;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.05); /* Adds a subtle 3D pop */
+}
+
+/* Custom Divider with Icon */
+.premium-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.premium-divider .line {
+    height: 3px;
+    width: 60px;
+    background-color: #e31837; /* Firemart Red */
+    border-radius: 2px;
+}
+
+.premium-divider .icon {
+    font-size: 24px;
+    color: #e31837; /* Firemart Red */
+    margin: 0 15px;
+}
+
+/* Subtitle Styling */
+.premium-category-subtitle {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #555555;
+    line-height: 1.8;
+    font-weight: 400;
+}
+
+/* Mobile Responsive Adjustments */
+@media (max-width: 767px) {
+    .premium-category-title {
+        font-size: 28px;
+    }
+    .premium-divider .line {
+        width: 40px;
+    }
+    .premium-category-subtitle {
+        font-size: 14px;
     }
 }

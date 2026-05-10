@@ -322,6 +322,33 @@
 
     <!--Contact JS-->
     <script src="js/contact.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // 1. Look at the web address and grab the "product" name
+            const urlParams = new URLSearchParams(window.location.search);
+            const productName = urlParams.get('product');
+
+            // 2. If a product name exists in the link, update the page!
+            if (productName) {
+
+                // Update the form heading to show the product name
+                const formHeading = document.querySelector('.contactHeading');
+                if (formHeading) {
+                    formHeading.innerHTML = 'Inquire about: <span style="color: #e31837;">' + productName + '</span>';
+                }
+
+                // Auto-fill the Subject input field with the product name
+                const subjectInput = document.getElementById('subject');
+                if (subjectInput) {
+                    subjectInput.value = 'Inquiry for: ' + productName;
+
+                    // Optional: Makes the subject box "read-only" so the user doesn't accidentally delete it
+                    subjectInput.setAttribute('readonly', true);
+                    subjectInput.style.backgroundColor = "#f9f9f9";
+                }
+            }
+        });
+    </script>
 </body>
 
 </html>
