@@ -4420,3 +4420,143 @@ footer .copyRight .fcenter {
 .main-featured-btn:hover i {
     transform: translateX(5px); /* Arrow slides slightly to the right */
 }
+
+/* =========================================
+PRODUCT SHOWCASE STYLING
+========================================= */
+
+.productShowcase {
+    padding: 20px 0;
+    background: #f8f8f8;
+}
+
+/* Main Product Row */
+.productItem {
+    /* margin-bottom: 80px; */
+    background: #fff;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 12px 40px rgba(0,0,0,0.08);
+    padding: 10px;
+
+    /* Vertical center alignment */
+    display: flex;
+    align-items: center;
+
+    position: relative;
+}
+
+/* Image Box */
+.productImageBox {
+    text-align: center;
+
+    /* PERFECT CENTER ALIGN */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 350px;
+}
+
+/* Product Image */
+.productImageBox img {
+    max-width: 90%;
+    filter: drop-shadow(0 10px 25px rgba(0,0,0,0.12));
+}
+
+/* Content Box */
+.productContentBox {
+    padding: 10px 25px;
+}
+
+/* Product Heading */
+.productContentBox h2 {
+    font-size: 38px;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 22px;
+    position: relative;
+}
+
+/* Underline */
+.productContentBox h2:after {
+    content: "";
+    width: 70px;
+    height: 4px;
+    background: #ff512f;
+    display: block;
+    margin-top: 12px;
+}
+
+/* Description */
+.productContentBox p {
+    font-size: 15px;
+    line-height: 30px;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+/* Feature List */
+.productFeatures {
+    padding: 0;
+    margin: 0 0 28px;
+    list-style: none;
+}
+
+.productFeatures li {
+    margin-bottom: 14px;
+    font-size: 15px;
+    color: #444;
+}
+
+.productFeatures li i {
+    color: #ff512f;
+    margin-right: 12px;
+    font-size: 14px;
+}
+
+/* Button Styling */
+.productBtn {
+    background: #ff512f;
+    color: #fff;
+    padding: 10px 22px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    border: none;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.productBtn:hover {
+    background: #e63e1c;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 991px) {
+
+    .productItem {
+        display: block;
+        padding: 30px 20px;
+    }
+
+    .productImageBox {
+        min-height: auto;
+        margin-bottom: 30px;
+    }
+
+    .productContentBox {
+        padding: 10px 5px;
+    }
+
+    .productContentBox h2 {
+        font-size: 30px;
+    }
+
+    .productItem {
+        margin-bottom: 50px;
+    }
+}
