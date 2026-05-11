@@ -117,7 +117,7 @@ button:hover {
   border-radius: 100%;
 }
 .contentRowPad {
-  padding: 35px 0px;
+  padding: 25px 0px;
 }
 /*----------------------------------------------------------------*/
 #header .top_menus {
@@ -2002,19 +2002,10 @@ footer.footer2 .copyRight {
   color: #FFF;
 }
 /*----------------------------------------------------------------*/
-#whatWeDid {
-    padding: 60px 0;
-}
-
 #whatWeDid .custom-img {
     width: 100%;
     height: auto;
     border-radius: 5px;
-}
-
-#whatWeDid .content-box {
-    padding: 20px;
-    margin-top: -45px;
 }
 
 #whatWeDid .content-box h3 {
@@ -4317,7 +4308,7 @@ footer .copyRight .fcenter {
    PARTNERS FAQ ACCORDION
    ======================================================== */
 .partner-faq-section {
-    padding: 60px 0;
+    padding: 15px 0;
     background-color: #f9f9f9;
 }
 
