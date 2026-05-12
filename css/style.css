@@ -4044,7 +4044,7 @@ footer .copyRight .fcenter {
 /* 1. The Grid Layout */
 .fm-category-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* Forces 3 columns exactly */
+    grid-template-columns: repeat(3, 1fr); /* Forces 3 columns exactly */
     gap: 30px; /* Perfect spacing between boxes */
     width: 100%;
 }
