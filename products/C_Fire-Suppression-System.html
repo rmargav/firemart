@@ -33,6 +33,150 @@
       <script src="js/html5shiv.min.js"></script>
       <script src="js/respond.min.js"></script>
     <![endif]-->
+
+    <!-- dropdown category in individual product style  -->
+    <!-- <style>
+        /* =========================================
+CUSTOM DROPDOWN BUTTON STYLING
+========================================= */
+
+        .custom-red-dropdown {
+            border: 2px solid #e31837;
+            border-radius: 4px;
+            padding: 0;
+            margin-top: 8px;
+            min-width: 220px;
+            background: #ffffff;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+            overflow: hidden;
+            z-index: 9999 !important;
+        }
+
+        /* Remove default Bootstrap spacing */
+        .custom-red-dropdown li {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* =========================================
+DROPDOWN LINKS
+========================================= */
+
+        .custom-red-dropdown>li>a {
+            display: block;
+            padding: 12px 20px;
+
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14px;
+            font-weight: 600;
+            text-decoration: none;
+
+            background: #ffffff !important;
+            color: #333333 !important;
+
+            border-bottom: 1px solid #eeeeee;
+
+            transition: all 0.25s ease;
+        }
+
+        /* Remove border from last item */
+        .custom-red-dropdown>li:last-child>a {
+            border-bottom: none;
+        }
+
+        /* =========================================
+HOVER EFFECT
+========================================= */
+
+        .custom-red-dropdown>li>a:hover,
+        .custom-red-dropdown>li>a:focus {
+            background: #f5f5f5 !important;
+            color: #000000 !important;
+            padding-left: 24px;
+        }
+
+        /* =========================================
+ACTIVE / CLICK FIX
+========================================= */
+
+        .custom-red-dropdown>.active>a,
+        .custom-red-dropdown>.active>a:hover,
+        .custom-red-dropdown>.active>a:focus {
+            background: #f5f5f5 !important;
+            color: #000000 !important;
+        }
+
+        /* =========================================
+BUTTON STYLING
+========================================= */
+
+        .productBtn {
+            background-color: #e31837;
+            color: #ffffff !important;
+            border: none;
+            padding: 12px 22px;
+            font-weight: 600;
+            border-radius: 4px;
+
+            transition: all 0.3s ease;
+        }
+
+        /* Button Hover */
+        .productBtn:hover {
+            background-color: #c4122d;
+            color: #ffffff !important;
+        }
+
+        /* Button Active / Focus Fix */
+        .productBtn:focus,
+        .productBtn:active,
+        .productBtn.active,
+        .open>.dropdown-toggle.productBtn {
+            background-color: #e31837 !important;
+            color: #ffffff !important;
+
+            outline: none !important;
+            box-shadow: none !important;
+        }
+
+        /* =========================================
+DROPDOWN VISIBILITY FIX
+========================================= */
+
+        .productItem {
+            overflow: visible !important;
+        }
+
+        .dropdown {
+            position: relative;
+        }
+
+        .dropdown-menu {
+            overflow: hidden;
+            border: none;
+        }
+
+        /* =========================================
+SMOOTH DROPDOWN ANIMATION
+========================================= */
+
+        .dropdown-menu {
+            opacity: 0;
+            transform: translateY(8px);
+            transition: all 0.25s ease;
+            display: block;
+            visibility: hidden;
+        }
+
+        /* Show animation when open */
+        .open .dropdown-menu {
+            opacity: 1;
+            transform: translateY(0);
+            visibility: visible;
+        }
+    </style> -->
+
 </head>
 
 <body>
@@ -97,12 +241,12 @@
                 </div>
             </div>
 
-            <!-- product-01 -->
+            <!-- product-01 Original Code  -->
             <div class="row productItem align-items-center">
                 <div class="col-md-6">
                     <div class="productImageBox">
-                        <img src="/images/product/C_Fire-Suppression-System/afss.jpg" alt="Fire Aerosol Based Suppression System"
-                            class="img-responsive">
+                        <img src="/images/product/C_Fire-Suppression-System/afss.jpg"
+                            alt="Fire Aerosol Based Suppression System" class="img-responsive">
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -122,12 +266,49 @@
                 </div>
             </div>
 
+            <!-- product-01 dropdown category code -->
+            <!-- <div class="row productItem align-items-center">
+                <div class="col-md-6">
+                    <div class="productImageBox">
+                        <img src="/images/product/C_Fire-Suppression-System/afss.jpg"
+                            alt="Fire Aerosol Based Suppression System" class="img-responsive">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="productContentBox">
+                        <h2>01. Fire Aerosol Based Suppression System</h2>
+                        <p>
+                            Advanced, eco-friendly fire suppression technology that extinguishes fires at the molecular
+                            level without depleting oxygen or causing water damage.
+                        </p>
+                        <ul class="productFeatures">
+                            <li><i class="fa fa-check"></i> Extremely compact and lightweight design</li>
+                            <li><i class="fa fa-check"></i> Zero Ozone Depletion Potential (ODP)</li>
+                            <li><i class="fa fa-check"></i> Ideal for electrical enclosures and server racks</li>
+                        </ul>
+
+                        <div class="dropdown" style="display: inline-block;">
+                            <button class="btn productBtn dropdown-toggle" type="button" id="aerosolDropdown"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                Select Version <i class="fa fa-angle-down" style="margin-left: 8px;"></i>
+                            </button>
+                            <ul class="dropdown-menu custom-red-dropdown" aria-labelledby="aerosolDropdown">
+                                <li><a href="/cylindrical-generators.html">Cylindrical Generators</a></li>
+                                <li><a href="/box-type-generators.html">Box Type Generators</a></li>
+                                <li><a href="/atex-generators.html">ATEX Generators</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div> -->
+
             <!-- product-02 -->
             <div class="row productItem align-items-center">
                 <div class="col-md-6 col-md-push-6">
                     <div class="productImageBox">
-                        <img src="/images/product/C_Fire-Suppression-System/cleanagent.jpg" alt="Clean Agent Suppression System"
-                            class="img-responsive">
+                        <img src="/images/product/C_Fire-Suppression-System/cleanagent.jpg"
+                            alt="Clean Agent Suppression System" class="img-responsive">
                     </div>
                 </div>
                 <div class="col-md-6 col-md-pull-6">
@@ -151,8 +332,8 @@
             <div class="row productItem align-items-center">
                 <div class="col-md-6">
                     <div class="productImageBox">
-                        <img src="/images/product/C_Fire-Suppression-System/co2.jpg" alt="Co2 Flooding Suppression System"
-                            class="img-responsive">
+                        <img src="/images/product/C_Fire-Suppression-System/co2.jpg"
+                            alt="Co2 Flooding Suppression System" class="img-responsive">
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -177,8 +358,8 @@
             <div class="row productItem align-items-center">
                 <div class="col-md-6 col-md-push-6">
                     <div class="productImageBox">
-                        <img src="/images/product/C_Fire-Suppression-System/inert.jpg" alt="Inert Gas Suppression System"
-                            class="img-responsive">
+                        <img src="/images/product/C_Fire-Suppression-System/inert.jpg"
+                            alt="Inert Gas Suppression System" class="img-responsive">
                     </div>
                 </div>
                 <div class="col-md-6 col-md-pull-6">
@@ -202,7 +383,8 @@
             <div class="row productItem align-items-center">
                 <div class="col-md-6">
                     <div class="productImageBox">
-                        <img src="/images/product/C_Fire-Suppression-System/kitchen.jpg" alt="Kitchen Suppression System" class="img-responsive">
+                        <img src="/images/product/C_Fire-Suppression-System/kitchen.jpg"
+                            alt="Kitchen Suppression System" class="img-responsive">
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -235,8 +417,8 @@
                     <!-- Column 1: Brand Logo & Details (3/12 width) -->
                     <div class="col-md-3 col-sm-6 widget">
                         <div class="row m0">
-                            <a href="/index.html" class="footer-logo">
-                                <img src="/images/lightlogo.png" alt="Firemart Logo" class="img-responsive">
+                            <a href="index.html" class="footer-logo">
+                                <img src="images/lightlogo.png" alt="Firemart Logo" class="img-responsive">
                             </a>
                             <p class="footer-desc">Discover new ways to buy fire equipments at one place. India's
                                 biggest mart in this industry.</p>
@@ -287,10 +469,10 @@
                         <div class="row m0">
                             <h4 class="foot-title">Discover</h4>
                             <ul class="nav">
-                                <li><a href="/catalog.html">Products</a></li>
-                                <li><a href="/partners.html">Partners</a></li>
-                                <li><a href="/about.html">About Us</a></li>
-                                <li><a href="/contact.html">Contact Us</a></li>
+                                <li><a href="catalog.html">Products</a></li>
+                                <li><a href="partners.html">Partners</a></li>
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
                             </ul>
                         </div>
                     </div>
@@ -299,11 +481,29 @@
                     <div class="col-md-2 col-sm-6 widget">
                         <div class="row m0">
                             <h4 class="foot-title">Contact</h4>
+
                             <ul class="list-inline social-icons">
-                                <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="https://www.firemart.in/" target="_blank"><i
-                                            class="fa fa-google-plus"></i></a></li>
+
+                                <!-- Google My Business -->
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <i class="fa fa-google"></i>
+                                    </a>
+                                </li>
+
+                                <!-- LinkedIn -->
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                                </li>
+
+                                <!-- Instagram -->
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <i class="fa fa-instagram"></i>
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -319,7 +519,7 @@
                     <div class="fcenter">
                         &copy;
                         <script>document.write(new Date().getFullYear())</script>
-                        <a href="/index.html">Firemart</a>. All Rights Reserved.
+                        <a href="index.html">Firemart</a>. All Rights Reserved.
                     </div>
                 </div>
             </div>
