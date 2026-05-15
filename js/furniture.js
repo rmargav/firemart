@@ -5,6 +5,30 @@ $(document).ready(function () {
     /*------------------------------    
     Go Top
     ------------------------------*/
+    $(document).ready(function () {
+      var scrollBtn = $("#scrollToTopBtn");
+
+      // 1. Check window scroll position
+      $(window).scroll(function () {
+        if ($(window).scrollTop() > 300) {
+          // Show button after scrolling down 300px
+          scrollBtn.addClass("show-btn");
+        } else {
+          // Hide button if at the top
+          scrollBtn.removeClass("show-btn");
+        }
+      });
+
+      // 2. Click action to smoothly scroll back to the top
+      scrollBtn.on("click", function (e) {
+        e.preventDefault();
+        $("html, body").animate({ scrollTop: 0 }, "300"); // 300ms smooth animation speed
+      });
+    });
+
+    /*------------------------------    
+    Go Top from template
+    ------------------------------*/
     $('a[href="#top"]').on("click", function () {
       $("html, body").animate({ scrollTop: 0 }, 800);
       return false;

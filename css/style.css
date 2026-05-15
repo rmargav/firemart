@@ -75,7 +75,7 @@ body {
   position: relative;
 }
 p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 /*Floating*/
 .fleft {
@@ -128,10 +128,10 @@ button:hover {
   line-height: 1;
   text-transform: capitalize;
   color: #5f5e5e;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 #header .top_menus .nav li a:hover {
-  color: #ED3237;
+  color: #ed3237;
   background-color: transparent;
 }
 #header .top_menus .nav li + li {
@@ -154,7 +154,7 @@ button:hover {
   padding-top: 20px;
 }
 #header .logo_line .searchSec .searchForm .input-group {
-  border: 1px solid  #cacaca;
+  border: 1px solid #cacaca;
   border-radius: 4px;
 }
 #header .logo_line .searchSec .searchForm .input-group .form-control {
@@ -172,11 +172,17 @@ button:hover {
   font-size: 12px;
   line-height: 35px;
   color: #505050;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
   padding: 0;
 }
-#header .logo_line .searchSec .searchForm .input-group button.dropdown-toggle i {
+#header
+  .logo_line
+  .searchSec
+  .searchForm
+  .input-group
+  button.dropdown-toggle
+  i {
   margin: 0 8px 0 5px;
   font-size: 18px;
   color: #b7b7b7;
@@ -193,21 +199,43 @@ button:hover {
   line-height: 30px;
   text-transform: capitalize;
 }
-#header .logo_line .searchSec .searchForm .input-group .dropdown-menu li a:hover,
-#header .logo_line .searchSec .searchForm .input-group .dropdown-menu li a:focus {
+#header
+  .logo_line
+  .searchSec
+  .searchForm
+  .input-group
+  .dropdown-menu
+  li
+  a:hover,
+#header
+  .logo_line
+  .searchSec
+  .searchForm
+  .input-group
+  .dropdown-menu
+  li
+  a:focus {
   background: none;
 }
-#header .logo_line .searchSec .searchForm .input-group .dropdown-menu li + li a {
+#header
+  .logo_line
+  .searchSec
+  .searchForm
+  .input-group
+  .dropdown-menu
+  li
+  + li
+  a {
   border-top: 1px solid rgba(220, 220, 220, 0.5);
 }
 #header .logo_line .searchSec .searchForm .input-group .searchIco {
-  background: none #ED3237;
+  background: none #ed3237;
 }
 #header .logo_line .searchSec .searchForm .input-group .searchIco button {
   border: none;
   background: none;
   text-shadow: none;
-  color: #FFF;
+  color: #fff;
   font-size: 16px;
   line-height: 35px;
   width: 35px;
@@ -222,7 +250,7 @@ button:hover {
   padding: 0;
   color: #505050;
   font-size: 13px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 #header .logo_line .searchSec .wishlistCompare .nav li a i {
   color: #dcdcdc;
@@ -235,7 +263,7 @@ button:hover {
 #header .logo_line .searchSec .cartCount {
   width: 47px;
   height: 42px;
-  background: url('../images/icons/cart.png') no-repeat scroll 0 0 transparent;
+  background: url("../images/icons/cart.png") no-repeat scroll 0 0 transparent;
   margin-top: 12px;
   text-align: center;
 }
@@ -247,26 +275,26 @@ button:hover {
   width: 20px;
   line-height: 20px;
   border-radius: 100%;
-  background: #ED3237;
+  background: #ed3237;
   padding: 0;
   text-align: center;
   font-weight: lighter;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 11px;
   display: inline-block;
   position: relative;
   top: -14px;
 }
 #header .navbar {
-  background: #F0F0F0;
+  background: #f0f0f0;
   border: none;
 }
 #header .navbar .navbar-header button {
   margin: 0;
   width: 100%;
   height: 50px;
-  color: #FFF;
-  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
   text-transform: uppercase;
   background: #222222;
@@ -274,7 +302,7 @@ button:hover {
   border-color: transparent;
 }
 #header .navbar .navbar-header button.collapsed {
-  background: #ED3237;
+  background: #ed3237;
 }
 #header .navbar .navbar-header button:hover,
 #header .navbar .navbar-header button:focus {
@@ -289,23 +317,23 @@ button:hover {
   padding: 0 20px;
   line-height: 72px;
   color: #222222;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 #header .navbar #mainNav .nav li a:hover {
   box-shadow: none;
-  background: #ED3237;
-  color: #FFF;
+  background: #ed3237;
+  color: #fff;
 }
 #header .navbar #mainNav .nav li.active a,
 #header .navbar #mainNav .nav li.open a {
   box-shadow: none;
-  background: #ED3237;
-  color: #FFF;
+  background: #ed3237;
+  color: #fff;
 }
 #header .navbar #mainNav .nav li.dropdown .dropdown-menu,
 #header .navbar #mainNav .nav li.open .dropdown-menu {
   border: 0;
-  border-bottom: 1px solid #ED3237;
+  border-bottom: 1px solid #ed3237;
   border-radius: 0;
   padding: 0;
   min-width: 195px;
@@ -327,14 +355,14 @@ button:hover {
 #header .navbar #mainNav .nav li.open .dropdown-menu li a {
   line-height: 43px;
   border-bottom: 1px solid #f3f3f3;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #777777;
   font-weight: 600;
   background-color: transparent;
 }
 #header .navbar #mainNav .nav li.dropdown .dropdown-menu li a:hover,
 #header .navbar #mainNav .nav li.open .dropdown-menu li a:hover {
-  color: #ED3237;
+  color: #ed3237;
 }
 #header .navbar #mainNav .nav li.dropdown.megaMenu,
 #header .navbar #mainNav .nav li.open.megaMenu {
@@ -356,41 +384,135 @@ button:hover {
 #header .navbar #mainNav .nav li.open.megaMenu .dropdown-menu li .listTitle {
   margin: 0;
   line-height: 45px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #222222;
 }
-#header .navbar #mainNav .nav li.dropdown.megaMenu .dropdown-menu li .listTitle a,
+#header
+  .navbar
+  #mainNav
+  .nav
+  li.dropdown.megaMenu
+  .dropdown-menu
+  li
+  .listTitle
+  a,
 #header .navbar #mainNav .nav li.open.megaMenu .dropdown-menu li .listTitle a {
-  color: #ED3237;
+  color: #ed3237;
   float: right;
   display: inline;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
 }
-#header .navbar #mainNav .nav li.dropdown.megaMenu .dropdown-menu li .listTitle a i,
-#header .navbar #mainNav .nav li.open.megaMenu .dropdown-menu li .listTitle a i {
+#header
+  .navbar
+  #mainNav
+  .nav
+  li.dropdown.megaMenu
+  .dropdown-menu
+  li
+  .listTitle
+  a
+  i,
+#header
+  .navbar
+  #mainNav
+  .nav
+  li.open.megaMenu
+  .dropdown-menu
+  li
+  .listTitle
+  a
+  i {
   margin-left: 5px;
 }
-#header .navbar #mainNav .nav li.dropdown.megaMenu .dropdown-menu li .megaInnerMenu,
-#header .navbar #mainNav .nav li.open.megaMenu .dropdown-menu li .megaInnerMenu {
+#header
+  .navbar
+  #mainNav
+  .nav
+  li.dropdown.megaMenu
+  .dropdown-menu
+  li
+  .megaInnerMenu,
+#header
+  .navbar
+  #mainNav
+  .nav
+  li.open.megaMenu
+  .dropdown-menu
+  li
+  .megaInnerMenu {
   float: none;
 }
-#header .navbar #mainNav .nav li.dropdown.megaMenu .dropdown-menu li .megaInnerMenu li,
-#header .navbar #mainNav .nav li.open.megaMenu .dropdown-menu li .megaInnerMenu li {
+#header
+  .navbar
+  #mainNav
+  .nav
+  li.dropdown.megaMenu
+  .dropdown-menu
+  li
+  .megaInnerMenu
+  li,
+#header
+  .navbar
+  #mainNav
+  .nav
+  li.open.megaMenu
+  .dropdown-menu
+  li
+  .megaInnerMenu
+  li {
   float: none;
   display: block;
   border: none;
   padding-left: 0;
 }
-#header .navbar #mainNav .nav li.dropdown.megaMenu .dropdown-menu li .megaInnerMenu li a,
-#header .navbar #mainNav .nav li.open.megaMenu .dropdown-menu li .megaInnerMenu li a {
+#header
+  .navbar
+  #mainNav
+  .nav
+  li.dropdown.megaMenu
+  .dropdown-menu
+  li
+  .megaInnerMenu
+  li
+  a,
+#header
+  .navbar
+  #mainNav
+  .nav
+  li.open.megaMenu
+  .dropdown-menu
+  li
+  .megaInnerMenu
+  li
+  a {
   line-height: 30px;
   border: none;
   padding-left: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
-#header .navbar #mainNav .nav li.dropdown.megaMenu .dropdown-menu li .megaInnerMenu li a img,
-#header .navbar #mainNav .nav li.open.megaMenu .dropdown-menu li .megaInnerMenu li a img {
+#header
+  .navbar
+  #mainNav
+  .nav
+  li.dropdown.megaMenu
+  .dropdown-menu
+  li
+  .megaInnerMenu
+  li
+  a
+  img,
+#header
+  .navbar
+  #mainNav
+  .nav
+  li.open.megaMenu
+  .dropdown-menu
+  li
+  .megaInnerMenu
+  li
+  a
+  img {
   width: 100%;
 }
 #header .navbar #mainNav .nav li.dropdown.megaMenu .dropdown-menu li.listMenu,
@@ -401,49 +523,200 @@ button:hover {
 #header .navbar #mainNav .nav li.open.megaMenu .dropdown-menu li.boxMenu {
   width: 60%;
 }
-#header .navbar #mainNav .nav li.dropdown.megaMenu .dropdown-menu li.boxMenu .row,
+#header
+  .navbar
+  #mainNav
+  .nav
+  li.dropdown.megaMenu
+  .dropdown-menu
+  li.boxMenu
+  .row,
 #header .navbar #mainNav .nav li.open.megaMenu .dropdown-menu li.boxMenu .row {
   border-bottom: 1px solid #e9eaee;
 }
-#header .navbar #mainNav .nav li.dropdown.megaMenu .dropdown-menu li.boxMenu .listTitle a,
-#header .navbar #mainNav .nav li.open.megaMenu .dropdown-menu li.boxMenu .listTitle a {
+#header
+  .navbar
+  #mainNav
+  .nav
+  li.dropdown.megaMenu
+  .dropdown-menu
+  li.boxMenu
+  .listTitle
+  a,
+#header
+  .navbar
+  #mainNav
+  .nav
+  li.open.megaMenu
+  .dropdown-menu
+  li.boxMenu
+  .listTitle
+  a {
   padding-right: 0;
 }
-#header .navbar #mainNav .nav li.dropdown.megaMenu .dropdown-menu li.boxMenu .megaInnerMenu,
-#header .navbar #mainNav .nav li.open.megaMenu .dropdown-menu li.boxMenu .megaInnerMenu {
+#header
+  .navbar
+  #mainNav
+  .nav
+  li.dropdown.megaMenu
+  .dropdown-menu
+  li.boxMenu
+  .megaInnerMenu,
+#header
+  .navbar
+  #mainNav
+  .nav
+  li.open.megaMenu
+  .dropdown-menu
+  li.boxMenu
+  .megaInnerMenu {
   border: none;
 }
-#header .navbar #mainNav .nav li.dropdown.megaMenu .dropdown-menu li.boxMenu .megaInnerMenu li,
-#header .navbar #mainNav .nav li.open.megaMenu .dropdown-menu li.boxMenu .megaInnerMenu li {
+#header
+  .navbar
+  #mainNav
+  .nav
+  li.dropdown.megaMenu
+  .dropdown-menu
+  li.boxMenu
+  .megaInnerMenu
+  li,
+#header
+  .navbar
+  #mainNav
+  .nav
+  li.open.megaMenu
+  .dropdown-menu
+  li.boxMenu
+  .megaInnerMenu
+  li {
   padding: 15px 0;
   float: left;
   width: 201px;
 }
-#header .navbar #mainNav .nav li.dropdown.megaMenu .dropdown-menu li.boxMenu .megaInnerMenu li + li,
-#header .navbar #mainNav .nav li.open.megaMenu .dropdown-menu li.boxMenu .megaInnerMenu li + li {
+#header
+  .navbar
+  #mainNav
+  .nav
+  li.dropdown.megaMenu
+  .dropdown-menu
+  li.boxMenu
+  .megaInnerMenu
+  li
+  + li,
+#header
+  .navbar
+  #mainNav
+  .nav
+  li.open.megaMenu
+  .dropdown-menu
+  li.boxMenu
+  .megaInnerMenu
+  li
+  + li {
   margin-left: 20px;
 }
-#header .navbar #mainNav .nav li.dropdown.megaMenu .dropdown-menu li.boxMenu .megaInnerMenu li a,
-#header .navbar #mainNav .nav li.open.megaMenu .dropdown-menu li.boxMenu .megaInnerMenu li a {
+#header
+  .navbar
+  #mainNav
+  .nav
+  li.dropdown.megaMenu
+  .dropdown-menu
+  li.boxMenu
+  .megaInnerMenu
+  li
+  a,
+#header
+  .navbar
+  #mainNav
+  .nav
+  li.open.megaMenu
+  .dropdown-menu
+  li.boxMenu
+  .megaInnerMenu
+  li
+  a {
   padding: 0;
   text-align: center;
   overflow: hidden;
   display: block;
 }
-#header .navbar #mainNav .nav li.dropdown.megaMenu .dropdown-menu li.boxMenu .megaInnerMenu li a .row,
-#header .navbar #mainNav .nav li.open.megaMenu .dropdown-menu li.boxMenu .megaInnerMenu li a .row {
+#header
+  .navbar
+  #mainNav
+  .nav
+  li.dropdown.megaMenu
+  .dropdown-menu
+  li.boxMenu
+  .megaInnerMenu
+  li
+  a
+  .row,
+#header
+  .navbar
+  #mainNav
+  .nav
+  li.open.megaMenu
+  .dropdown-menu
+  li.boxMenu
+  .megaInnerMenu
+  li
+  a
+  .row {
   border: none;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
   color: #222222;
 }
-#header .navbar #mainNav .nav li.dropdown.megaMenu .dropdown-menu li.boxMenu .megaInnerMenu li a .row.imgHov,
-#header .navbar #mainNav .nav li.open.megaMenu .dropdown-menu li.boxMenu .megaInnerMenu li a .row.imgHov {
+#header
+  .navbar
+  #mainNav
+  .nav
+  li.dropdown.megaMenu
+  .dropdown-menu
+  li.boxMenu
+  .megaInnerMenu
+  li
+  a
+  .row.imgHov,
+#header
+  .navbar
+  #mainNav
+  .nav
+  li.open.megaMenu
+  .dropdown-menu
+  li.boxMenu
+  .megaInnerMenu
+  li
+  a
+  .row.imgHov {
   position: relative;
 }
-#header .navbar #mainNav .nav li.dropdown.megaMenu .dropdown-menu li.boxMenu .megaInnerMenu li a .row.imgHov .hovCnt,
-#header .navbar #mainNav .nav li.open.megaMenu .dropdown-menu li.boxMenu .megaInnerMenu li a .row.imgHov .hovCnt {
-  content: '';
+#header
+  .navbar
+  #mainNav
+  .nav
+  li.dropdown.megaMenu
+  .dropdown-menu
+  li.boxMenu
+  .megaInnerMenu
+  li
+  a
+  .row.imgHov
+  .hovCnt,
+#header
+  .navbar
+  #mainNav
+  .nav
+  li.open.megaMenu
+  .dropdown-menu
+  li.boxMenu
+  .megaInnerMenu
+  li
+  a
+  .row.imgHov
+  .hovCnt {
+  content: "";
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.45);
@@ -452,35 +725,141 @@ button:hover {
   left: -150%;
   transition: all 300ms ease-in-out 0s;
 }
-#header .navbar #mainNav .nav li.dropdown.megaMenu .dropdown-menu li.boxMenu .megaInnerMenu li a .row.imgHov .hovCntInner,
-#header .navbar #mainNav .nav li.open.megaMenu .dropdown-menu li.boxMenu .megaInnerMenu li a .row.imgHov .hovCntInner {
+#header
+  .navbar
+  #mainNav
+  .nav
+  li.dropdown.megaMenu
+  .dropdown-menu
+  li.boxMenu
+  .megaInnerMenu
+  li
+  a
+  .row.imgHov
+  .hovCntInner,
+#header
+  .navbar
+  #mainNav
+  .nav
+  li.open.megaMenu
+  .dropdown-menu
+  li.boxMenu
+  .megaInnerMenu
+  li
+  a
+  .row.imgHov
+  .hovCntInner {
   position: absolute;
   top: calc(50% - 21px);
   left: 300%;
   white-space: nowrap;
   display: block;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
-  color: #FFF;
+  color: #fff;
   padding: 0 15px;
   line-height: 40px;
-  border: 1px solid  #FFF;
+  border: 1px solid #fff;
   transition: all 300ms ease-in-out 0s;
 }
-#header .navbar #mainNav .nav li.dropdown.megaMenu .dropdown-menu li.boxMenu .megaInnerMenu li a .row.menuTitle,
-#header .navbar #mainNav .nav li.open.megaMenu .dropdown-menu li.boxMenu .megaInnerMenu li a .row.menuTitle {
+#header
+  .navbar
+  #mainNav
+  .nav
+  li.dropdown.megaMenu
+  .dropdown-menu
+  li.boxMenu
+  .megaInnerMenu
+  li
+  a
+  .row.menuTitle,
+#header
+  .navbar
+  #mainNav
+  .nav
+  li.open.megaMenu
+  .dropdown-menu
+  li.boxMenu
+  .megaInnerMenu
+  li
+  a
+  .row.menuTitle {
   line-height: 45px;
 }
-#header .navbar #mainNav .nav li.dropdown.megaMenu .dropdown-menu li.boxMenu .megaInnerMenu li a:hover .row,
-#header .navbar #mainNav .nav li.open.megaMenu .dropdown-menu li.boxMenu .megaInnerMenu li a:hover .row {
-  color: #ED3237;
+#header
+  .navbar
+  #mainNav
+  .nav
+  li.dropdown.megaMenu
+  .dropdown-menu
+  li.boxMenu
+  .megaInnerMenu
+  li
+  a:hover
+  .row,
+#header
+  .navbar
+  #mainNav
+  .nav
+  li.open.megaMenu
+  .dropdown-menu
+  li.boxMenu
+  .megaInnerMenu
+  li
+  a:hover
+  .row {
+  color: #ed3237;
 }
-#header .navbar #mainNav .nav li.dropdown.megaMenu .dropdown-menu li.boxMenu .megaInnerMenu li a:hover .row.imgHov .hovCnt,
-#header .navbar #mainNav .nav li.open.megaMenu .dropdown-menu li.boxMenu .megaInnerMenu li a:hover .row.imgHov .hovCnt {
+#header
+  .navbar
+  #mainNav
+  .nav
+  li.dropdown.megaMenu
+  .dropdown-menu
+  li.boxMenu
+  .megaInnerMenu
+  li
+  a:hover
+  .row.imgHov
+  .hovCnt,
+#header
+  .navbar
+  #mainNav
+  .nav
+  li.open.megaMenu
+  .dropdown-menu
+  li.boxMenu
+  .megaInnerMenu
+  li
+  a:hover
+  .row.imgHov
+  .hovCnt {
   left: 0;
 }
-#header .navbar #mainNav .nav li.dropdown.megaMenu .dropdown-menu li.boxMenu .megaInnerMenu li a:hover .row.imgHov .hovCntInner,
-#header .navbar #mainNav .nav li.open.megaMenu .dropdown-menu li.boxMenu .megaInnerMenu li a:hover .row.imgHov .hovCntInner {
+#header
+  .navbar
+  #mainNav
+  .nav
+  li.dropdown.megaMenu
+  .dropdown-menu
+  li.boxMenu
+  .megaInnerMenu
+  li
+  a:hover
+  .row.imgHov
+  .hovCntInner,
+#header
+  .navbar
+  #mainNav
+  .nav
+  li.open.megaMenu
+  .dropdown-menu
+  li.boxMenu
+  .megaInnerMenu
+  li
+  a:hover
+  .row.imgHov
+  .hovCntInner {
   left: calc(50% - 63px);
 }
 #header .topFeatures .nav-justified {
@@ -505,11 +884,11 @@ button:hover {
 }
 #header2 .menu .navbar .navbar-header button {
   border-radius: 0;
-  color: #FFF;
+  color: #fff;
   border: none;
   width: 100%;
   margin: 0;
-  background: #ED3237;
+  background: #ed3237;
 }
 #header2 .menu .navbar .navbar-header button:hover,
 #header2 .menu .navbar .navbar-header button:focus,
@@ -517,13 +896,13 @@ button:hover {
   background: #222222;
 }
 #header2 .menu .navbar .navbar-header button[aria-expanded="false"] {
-  background: #ED3237;
+  background: #ed3237;
 }
 #header2 .menu .navbar #mainNav2 ul li a {
   line-height: 70px;
   padding: 0 25px;
   text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: normal;
   color: #222222;
   font-size: 17px;
@@ -556,21 +935,21 @@ button:hover {
 #header2 .menu .navbar #mainNav2 ul li.open ul li a {
   line-height: 43px;
   border-bottom: 1px solid #f3f3f3;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #777777;
   font-weight: 600;
-  background-color: #FFF;
+  background-color: #fff;
 }
 #header2 .menu .navbar #mainNav2 ul li.dropdown ul li a:hover,
 #header2 .menu .navbar #mainNav2 ul li.open ul li a:hover {
-  color: #ED3237;
+  color: #ed3237;
 }
 #header2 .logo {
   padding: 0;
 }
 #header2 .logo a {
   display: inline-block;
-  line-height: 60px; 
+  line-height: 60px;
 }
 #header2 .logo a img {
   max-width: 75%;
@@ -585,7 +964,7 @@ button:hover {
 #header2 .menu2 ul li a {
   line-height: 14px;
   padding: 0 15px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #454545;
 }
 #header2 .menu2 ul li a:hover,
@@ -593,7 +972,7 @@ button:hover {
   background: none;
 }
 #header2 .menu2 ul li:first-child {
-  border-right: 1px solid  #4c4c4c;
+  border-right: 1px solid #4c4c4c;
 }
 #header2 .menu2 ul li:nth-child(3),
 #header2 .menu2 ul li:nth-child(4) {
@@ -602,7 +981,8 @@ button:hover {
 #header2 .menu2 ul li:last-child a {
   width: 65px;
   height: 32px;
-  background: url('../images/icons/cart4.png') no-repeat scroll 15px 0 transparent;
+  background: url("../images/icons/cart4.png") no-repeat scroll 15px 0
+    transparent;
   margin-top: -8px;
   text-align: center;
 }
@@ -614,7 +994,7 @@ button:hover {
   padding: 0;
   text-align: center;
   font-weight: lighter;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 11px;
   display: inline-block;
   position: relative;
@@ -638,13 +1018,17 @@ button:hover {
   border: none;
   background: rgba(0, 0, 0, 0.65);
   font-size: 30px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 100;
 }
 #header2 #searchForm form .input-group .form-control::-moz-placeholder,
 #header2 #searchForm form .input-group .form-control:-ms-input-placeholder,
-#header2 #searchForm form .input-group .form-control::-webkit-input-placeholder {
-  color: #FFF;
+#header2
+  #searchForm
+  form
+  .input-group
+  .form-control::-webkit-input-placeholder {
+  color: #fff;
   opacity: 1;
 }
 #header2 #searchForm form .input-group .input-group-addon {
@@ -669,13 +1053,13 @@ button:hover {
   margin: 0 auto 15px;
 }
 #shopFeatures .coreFeature .coreFeatureInner h5 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   color: #222222;
   line-height: 24px;
 }
 #shopFeatures .coreFeature .coreFeatureInner p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #626262;
   line-height: 20px;
 }
@@ -708,11 +1092,11 @@ button:hover {
 }
 #homeBanners .homeBanner .bannerTextArea .bannerTextAreaInner h4 {
   font-size: 20px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
 }
 #homeBanners .homeBanner .bannerTextArea .bannerTextAreaInner h4:after {
-  content: '';
+  content: "";
   width: 65px;
   height: 2px;
   background: #222222;
@@ -720,7 +1104,7 @@ button:hover {
   display: block;
 }
 #homeBanners .homeBanner .bannerTextArea .bannerTextAreaInner h5 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 #homeBanners2 .newArrivals {
   position: relative;
@@ -739,7 +1123,7 @@ button:hover {
 #homeBanners2 .newArrivals .newArrivalsBox .newArrivalsBoxInner {
   width: 100%;
   height: 100%;
-  background: #FFF;
+  background: #fff;
   padding: 20px;
   text-transform: uppercase;
 }
@@ -748,7 +1132,7 @@ button:hover {
   margin-bottom: 5px;
 }
 #homeBanners2 .newArrivals .newArrivalsBox .newArrivalsBoxInner a {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   color: #222222;
 }
@@ -757,8 +1141,8 @@ button:hover {
   font-size: 18px;
 }
 #homeBanners2 .newYearSale {
-  background: #ED3237;
-  color: #FFF;
+  background: #ed3237;
+  color: #fff;
   text-align: center;
   padding: 20px;
 }
@@ -768,17 +1152,17 @@ button:hover {
   margin: 5px 0 0;
 }
 #homeBanners2 .newYearSale h5:before {
-  content: '';
+  content: "";
   width: 100%;
   display: block;
   height: 1px;
-  background: #FFF;
+  background: #fff;
   position: relative;
   z-index: 0;
   margin-bottom: -15px;
 }
 #homeBanners2 .newYearSale h5 span {
-  background: #ED3237;
+  background: #ed3237;
   padding: 0 25px;
   display: inline-block;
   line-height: 30px;
@@ -786,17 +1170,17 @@ button:hover {
   z-index: 3;
 }
 #homeBanners2 .newYearSale h2 {
-  color: #FFF;
+  color: #fff;
   margin-bottom: 0;
   line-height: 40px;
 }
 #homeBanners2 .newYearSale h3 {
-  color: #FFF;
+  color: #fff;
   line-height: 34px;
   font-size: 22px;
   margin-bottom: 0;
   padding-bottom: 4px;
-  border-bottom: 1px solid  #FFF;
+  border-bottom: 1px solid #fff;
 }
 #homeBanners2 .endYearSale {
   position: relative;
@@ -817,22 +1201,22 @@ button:hover {
 }
 #homeBanners2 .endYearSale .endYearSaleBox .endYearSaleBoxInner {
   padding: 20px;
-  border: 1px solid  #FFF;
+  border: 1px solid #fff;
   height: 100%;
   text-transform: uppercase;
 }
 #homeBanners2 .endYearSale .endYearSaleBox .endYearSaleBoxInner h5 {
-  color: #FFF;
+  color: #fff;
   margin-top: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
 }
 #homeBanners2 .endYearSale .endYearSaleBox .endYearSaleBoxInner h2 {
-  color: #FFF;
+  color: #fff;
   margin-bottom: 10px;
 }
 #homeBanners2 .endYearSale .endYearSaleBox .endYearSaleBoxInner h6 {
-  color: #FFF;
+  color: #fff;
   margin-bottom: 5px;
 }
 #homeBanners2 .factoryOutlet {
@@ -853,7 +1237,7 @@ button:hover {
 #homeBanners2 .factoryOutlet .factoryOutletBox .factoryOutletBoxInner {
   width: 100%;
   height: 100%;
-  background: #FFF;
+  background: #fff;
   padding: 20px;
   text-transform: uppercase;
 }
@@ -863,7 +1247,7 @@ button:hover {
   font-size: 22px;
 }
 #homeBanners2 .factoryOutlet .factoryOutletBox .factoryOutletBoxInner a {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   color: #222222;
 }
@@ -878,18 +1262,18 @@ button:hover {
   margin-bottom: 45px;
 }
 .sectionTitle h3 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .sectionTitle h3:after {
   height: 1px;
   width: 65px;
-  content: '';
+  content: "";
   background: #222222;
   margin: 15px auto;
   display: block;
 }
 .sectionTitle h5 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 /*----------------------------------------------------------------*/
 .product {
@@ -931,7 +1315,7 @@ button:hover {
 .product .productInner .imgHov .hovArea .icons ul li a {
   padding: 0;
   width: 40px;
-  border: 2px solid  #000;
+  border: 2px solid #000;
   display: block;
   color: #222222;
 }
@@ -945,7 +1329,7 @@ button:hover {
   line-height: 1;
   display: inline-block;
   font-size: 13px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #222222;
 }
 .product .productInner .imgHov .hovArea .proRating {
@@ -963,7 +1347,7 @@ button:hover {
 }
 .product .productInner .imgHov .hovArea .proPrice {
   font-size: 24px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #222222;
   margin-top: 250%;
   transition: all 300ms ease-in-out 0s;
@@ -973,7 +1357,7 @@ button:hover {
   margin-right: 2px;
 }
 .product .productInner .proName a {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 55px;
   color: #222222;
   font-weight: bold;
@@ -981,7 +1365,7 @@ button:hover {
 }
 .product .productInner .proBuyBtn .btn {
   color: #555555;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 12px;
   display: inline-block;
   line-height: 35px;
@@ -993,7 +1377,7 @@ button:hover {
 }
 .product .productInner .proBuyBtn .btn:hover {
   background: #222222;
-  color: #FFF;
+  color: #fff;
 }
 .product .productInner:hover .imgHov .hovArea {
   top: 0;
@@ -1045,22 +1429,28 @@ button:hover {
 }
 .singleProduct .flexslider#productImageSliderNav .flex-direction-nav a i {
   font-size: 22px;
-  color: #FFF;
+  color: #fff;
   line-height: 30px;
   width: 100%;
   position: absolute;
   top: 0;
   left: 0;
 }
-.singleProduct .flexslider#productImageSliderNav .flex-direction-nav a.flex-prev {
+.singleProduct
+  .flexslider#productImageSliderNav
+  .flex-direction-nav
+  a.flex-prev {
   left: 0;
 }
-.singleProduct .flexslider#productImageSliderNav .flex-direction-nav a.flex-next {
+.singleProduct
+  .flexslider#productImageSliderNav
+  .flex-direction-nav
+  a.flex-next {
   right: 0;
 }
 .singleProduct .flexslider#productImageSliderNav .flex-direction-nav a:hover,
 .singleProduct .flexslider#productImageSliderNav .flex-direction-nav a:focus {
-  background: #ED3237;
+  background: #ed3237;
 }
 .singleProduct .heading {
   margin-bottom: 10px;
@@ -1079,7 +1469,7 @@ button:hover {
   line-height: 50px;
 }
 .singleProduct .starsRow {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #777777;
 }
 .singleProduct .starsRow .stars {
@@ -1101,7 +1491,10 @@ button:hover {
   line-height: 24px;
   color: #777777;
 }
-.singleProduct .sizeSelect.bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+.singleProduct
+  .sizeSelect.bootstrap-select:not([class*="col-"]):not(
+    [class*="form-control"]
+  ):not(.input-group-btn) {
   width: 120px;
   margin-bottom: 25px;
 }
@@ -1110,7 +1503,7 @@ button:hover {
   color: #777777;
   padding: 0 15px;
   line-height: 28px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 .singleProduct .wce {
   margin-bottom: 25px;
@@ -1124,13 +1517,13 @@ button:hover {
   margin-right: 10px;
 }
 .singleProduct .wce li a:hover {
-  color: #ED3237;
+  color: #ed3237;
 }
 .singleProduct .qtyAtc {
   margin-bottom: 30px;
 }
 .singleProduct .qtyAtc .quantity {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #222222;
   line-height: 42px;
   margin-right: 20px;
@@ -1193,12 +1586,12 @@ button:hover {
 .descList dl dt {
   text-align: left;
   text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #222222;
   line-height: 26px;
 }
 .descList dl dd {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #777777;
   line-height: 26px;
 }
@@ -1236,20 +1629,20 @@ button:hover {
   line-height: 38px;
   display: inline-block;
   margin: 0 5px;
-  color: #ED3237;
-  border: 1px solid #ED3237;
+  color: #ed3237;
+  border: 1px solid #ed3237;
   border-radius: 0;
 }
 .product2 .thumbnail .imgHov .hovArea .getlike {
   padding: 0 40px;
-  background: #ED3237;
+  background: #ed3237;
   margin-bottom: -45px;
   transition: all 300ms ease-in-out 0s;
 }
 .product2 .thumbnail .imgHov .hovArea .getlike a {
   display: inline-block;
   color: #fff;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   line-height: 45px;
 }
 .product2 .thumbnail .imgHov .hovArea .getlike a i {
@@ -1269,7 +1662,7 @@ button:hover {
 .product2 .thumbnail .productIntro .heading span {
   float: right;
   font-size: 14px;
-  color: #ED3237;
+  color: #ed3237;
 }
 .product2 .thumbnail .productIntro .heading span del {
   color: #777777;
@@ -1278,7 +1671,7 @@ button:hover {
 .product2 .thumbnail .productIntro .proCat {
   line-height: 35px;
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
   color: #222222;
 }
@@ -1292,7 +1685,7 @@ button:hover {
   color: #222222;
 }
 .product2 .thumbnail .productIntro .stars .vote {
-  color: #ED3237;
+  color: #ed3237;
 }
 .product2 .thumbnail:hover .imgHov .hovArea {
   bottom: 0;
@@ -1327,7 +1720,7 @@ button:hover {
   top: calc(50% - 60px);
   width: 44px;
   line-height: 56px;
-  color: #FFF;
+  color: #fff;
   font-size: 28px;
   background: #000;
   text-align: center;
@@ -1352,7 +1745,7 @@ button:hover {
   width: 100%;
 }
 .featureCats .item .imgHov .hovArea {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -1383,13 +1776,13 @@ button:hover {
   background: #222222;
   display: inline-block;
   padding: 0 20px;
-  color: #FFF;
+  color: #fff;
   margin-top: 5px;
   margin-bottom: -250%;
   position: relative;
 }
 .featureCats .item .imgHov .hovArea a:before {
-  content: '';
+  content: "";
   width: calc(100% + 10px);
   height: calc(100% + 10px);
   position: absolute;
@@ -1406,7 +1799,7 @@ button:hover {
 }
 .featureCats .item a h4 {
   font-size: 16px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #222222;
   line-height: 40px;
 }
@@ -1465,7 +1858,7 @@ button:hover {
 #featureCat2 .category2 .imgHov .hovArea a {
   display: inline-block;
   line-height: 30px;
-  border: 1px solid  #fff;
+  border: 1px solid #fff;
   padding: 0 17px;
   text-transform: uppercase;
   color: #fff;
@@ -1501,87 +1894,95 @@ button:hover {
    ======================================================== */
 
 .logo-slider {
-    height: 120px;
-    margin: auto;
-    overflow: hidden;
-    position: relative;
-    width: 100%;
+  height: 120px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
 }
 
 /* Creates a white fade effect on the left and right edges */
-.logo-slider::before, 
+.logo-slider::before,
 .logo-slider::after {
-    background: linear-gradient(to right, rgba(249, 249, 249, 1) 0%, rgba(249, 249, 249, 0) 100%);
-    content: "";
-    height: 120px;
-    position: absolute;
-    width: 150px;
-    z-index: 2;
+  background: linear-gradient(
+    to right,
+    rgba(249, 249, 249, 1) 0%,
+    rgba(249, 249, 249, 0) 100%
+  );
+  content: "";
+  height: 120px;
+  position: absolute;
+  width: 150px;
+  z-index: 2;
 }
 
 .logo-slider::before {
-    left: 0;
-    top: 0;
+  left: 0;
+  top: 0;
 }
 
 .logo-slider::after {
-    right: 0;
-    top: 0;
-    transform: rotateZ(180deg);
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
 }
 
 /* The track that holds the logos and moves them */
 .logo-slide-track {
-    /* 35s controls the speed. Lower = faster, Higher = slower */
-    animation: scroll 35s linear infinite; 
-    display: flex;
-    /* Formula: slide width (200px) * total number of slides (14) */
-    width: calc(200px * 14); 
+  /* 35s controls the speed. Lower = faster, Higher = slower */
+  animation: scroll 35s linear infinite;
+  display: flex;
+  /* Formula: slide width (200px) * total number of slides (14) */
+  width: calc(200px * 14);
 }
 
 /* Pause the slider if the user hovers their mouse over it */
 .logo-slide-track:hover {
-    animation-play-state: paused;
+  animation-play-state: paused;
 }
 
 /* Individual logo boxes */
 .logo-slider .slide {
-    height: 120px;
-    width: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
+  height: 120px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
 }
 
 /* Logo Image Styling */
 .logo-slider .slide img {
-    max-width: 100%;
-    max-height: 100%;
+  max-width: 100%;
+  max-height: 100%;
 
-    transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 /* Turn logo full color and opacity when hovered */
 .logo-slider .slide img:hover {
-    opacity: 1;
-    filter: grayscale(0%);
-    transform: scale(1.1); /* Slight zoom effect */
+  opacity: 1;
+  filter: grayscale(0%);
+  transform: scale(1.1); /* Slight zoom effect */
 }
 
 /* The actual sliding animation */
 @keyframes scroll {
-    0% { transform: translateX(0); }
-    /* Formula: slide width (-200px) * original number of slides (7) */
-    100% { transform: translateX(calc(-200px * 7)); } 
+  0% {
+    transform: translateX(0);
+  }
+  /* Formula: slide width (-200px) * original number of slides (7) */
+  100% {
+    transform: translateX(calc(-200px * 7));
+  }
 }
 
 /* Mobile Adjustments */
 @media (max-width: 767px) {
-    .logo-slider::before, 
-    .logo-slider::after {
-        width: 50px; /* Smaller fade edges on mobile */
-    }
+  .logo-slider::before,
+  .logo-slider::after {
+    width: 50px; /* Smaller fade edges on mobile */
+  }
 }
 /*----------------------------------------------------------------*/
 #brands .brands ul {
@@ -1632,19 +2033,19 @@ button:hover {
 }
 /*----------------------------------------------------------------*/
 footer {
-  background: url('../images/footer.png') no-repeat scroll center 0;
+  background: url("../images/footer.png") no-repeat scroll center 0;
   background-size: cover;
 }
 footer .copyRight {
   background: #000;
   line-height: 12px;
   padding: 19px 0;
-  color: #FFF;
+  color: #fff;
   font-size: 12px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 footer .copyRight a {
-  color: #FFF;
+  color: #fff;
 }
 footer .copyRight ul li a {
   padding: 0 12px;
@@ -1654,7 +2055,7 @@ footer .copyRight ul li a:hover {
   background-color: transparent;
 }
 footer .copyRight ul li + li {
-  border-left: 1px solid  #FFF;
+  border-left: 1px solid #fff;
 }
 footer .topFooter {
   background: rgba(0, 0, 0, 0.75);
@@ -1664,11 +2065,11 @@ footer .topFooter .line2 {
   padding: 25px 15px;
 }
 footer .topFooter .line1 {
-  border-bottom: 1px solid  #FFF;
+  border-bottom: 1px solid #fff;
 }
 footer .topFooter .footFeatures .footFeature {
   padding: 55px 20px;
-  color: #FFF;
+  color: #fff;
   text-transform: uppercase;
   text-align: center;
 }
@@ -1678,28 +2079,28 @@ footer .topFooter .footFeatures .footFeature .texts {
 }
 footer .topFooter .footFeatures .footFeature .texts h4 {
   font-size: 16px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin: 0 0 10px;
 }
 footer .topFooter .footFeatures .footFeature .texts h2 {
   font-size: 32px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin: 0;
 }
 footer .topFooter .footFeatures .footFeature:hover {
   background: rgba(0, 0, 0, 0.6);
 }
 footer .topFooter .widget {
-  color: #FFF;
+  color: #fff;
 }
 footer .topFooter .widget h4 {
   text-transform: uppercase;
   font-size: 15.2px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin: 0 0 25px;
 }
 footer .topFooter .widget p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin: 0 0 25px;
   line-height: 26px;
 }
@@ -1708,8 +2109,8 @@ footer .topFooter .widget ul.list-inline li a {
   width: 30px;
   display: block;
   line-height: 30px;
-  border: 1px solid  #FFF;
-  color: #FFF;
+  border: 1px solid #fff;
+  color: #fff;
   text-align: center;
 }
 footer .topFooter .widget ul.list-inline li a:hover,
@@ -1719,22 +2120,22 @@ footer .topFooter .widget ul.list-inline li a:focus {
 }
 footer .topFooter .widget ul.nav li a {
   line-height: 30px;
-  font-family: 'Open Sans', sans-serif;
-  color: #FFF;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
   padding: 0;
 }
 footer .topFooter .widget ul.nav li a:hover,
 footer .topFooter .widget ul.nav li a:focus {
-  color: #ED3237;
+  color: #ed3237;
   background-color: transparent;
 }
 footer .topFooter .widget .input-group {
   margin-bottom: 25px;
-  border: 1px solid  #FFF;
+  border: 1px solid #fff;
   padding: 10px;
 }
 footer .topFooter .widget .input-group .input-group-addon {
-  color: #FFF;
+  color: #fff;
   padding: 0 10px;
   line-height: 1;
   background-color: transparent;
@@ -1742,9 +2143,9 @@ footer .topFooter .widget .input-group .input-group-addon {
 }
 footer .topFooter .widget .input-group input {
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 10px;
-  color: #FFF;
+  color: #fff;
   background-color: transparent;
   border: none;
   line-height: 15px;
@@ -1756,27 +2157,27 @@ footer .topFooter .widget .input-group input:focus {
 footer .topFooter .widget .input-group input::-moz-placeholder,
 footer .topFooter .widget .input-group input:-ms-input-placeholder,
 footer .topFooter .widget .input-group input::-webkit-input-placeholder {
-  color: #FFF;
+  color: #fff;
   opacity: 1;
 }
 footer .topFooter .widget input[type="submit"].form-control {
   background: #000;
   border-radius: 0;
   text-transform: uppercase;
-  color: #FFF;
-  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
   transition: all 300ms ease-in-out 0s;
 }
 footer .topFooter .widget input[type="submit"].form-control:hover,
 footer .topFooter .widget input[type="submit"].form-control:focus {
-  background: #ED3237;
-  border-color: #ED3237;
+  background: #ed3237;
+  border-color: #ed3237;
 }
 footer.footer2 {
   background: none #000;
 }
 footer.footer2 .topFooter .widget input[type="submit"].form-control {
-  background: #ED3237;
+  background: #ed3237;
   border-color: transparent;
 }
 footer.footer2 .topFooter .widget input[type="submit"].form-control:hover,
@@ -1805,24 +2206,24 @@ footer.footer2 .copyRight {
 #slider .sliderCont .slides .text_lines {
   height: 165px;
   background: rgba(0, 0, 0, 0.38);
-  color: #FFF;
+  color: #fff;
   position: absolute;
   top: calc(50% - 80px);
   width: 100%;
 }
 #slider .sliderCont .slides .text_lines h3 {
   font-size: 30px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
 }
 #slider .sliderCont .slides .text_lines h2 {
   font-size: 35px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
 }
 #slider .sliderCont .slides .text_lines a h4 {
   text-transform: lowercase;
-  color: #FFF;
+  color: #fff;
 }
 #slider .sliderCont .flex-direction-nav a {
   height: 165px;
@@ -1838,7 +2239,7 @@ footer.footer2 .copyRight {
 }
 #slider .sliderCont .flex-direction-nav a i {
   font-size: 35px;
-  color: #FFF;
+  color: #fff;
   line-height: 165px;
 }
 #slider .sliderCont .flex-direction-nav a.flex-prev {
@@ -1871,14 +2272,14 @@ footer.footer2 .copyRight {
 #slider2 .sliderCont2 .slides .text_lines {
   height: 80px;
   background: rgba(0, 0, 0, 0.38);
-  color: #FFF;
+  color: #fff;
   position: absolute;
   top: calc(50% - 40px);
   width: 100%;
 }
 #slider2 .sliderCont2 .slides .text_lines h3 {
   font-size: 30px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   line-height: 80px;
   margin: 0;
@@ -1905,7 +2306,7 @@ footer.footer2 .copyRight {
 }
 #slider2 .sliderCont2 .flex-direction-nav a i {
   font-size: 35px;
-  color: #FFF;
+  color: #fff;
   line-height: 80px;
 }
 #slider2 .sliderCont2 .flex-direction-nav a.flex-prev {
@@ -1929,13 +2330,13 @@ footer.footer2 .copyRight {
 #ourTeam .thumbnail h4 {
   text-transform: uppercase;
   color: #686868;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
 }
 #ourTeam .thumbnail h5 {
   text-transform: capitalize;
   color: #3d3d3d;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 #ourTeam .thumbnail ul {
   background: #f4f4f4;
@@ -1962,17 +2363,17 @@ footer.footer2 .copyRight {
   background: url("../images/cover.jpg") no-repeat scroll center 0 transparent;
   background-size: cover;
   font-size: 32px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 198px;
   height: 198px;
   text-align: center;
   margin: 0;
 }
 #breadcrumbRow .pageTitle {
-  background: #ED3237;
+  background: #ed3237;
 }
 #breadcrumbRow .pageTitle h4 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 50px;
   margin: 0;
 }
@@ -1983,8 +2384,8 @@ footer.footer2 .copyRight {
   line-height: 50px;
 }
 #breadcrumbRow .pageTitle ul li {
-  font-family: 'Montserrat', sans-serif;
-  color: #FFF;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
 }
 #breadcrumbRow .pageTitle ul li + li:before {
   content: "\f105";
@@ -1995,35 +2396,35 @@ footer.footer2 .copyRight {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   transform: translate(0, 0);
-  color: #FFF;
+  color: #fff;
 }
 #breadcrumbRow .pageTitle ul li a {
-  font-family: 'Montserrat', sans-serif;
-  color: #FFF;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
 }
 /*----------------------------------------------------------------*/
 #whatWeDid .custom-img {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
 }
 
 #whatWeDid .content-box h3 {
-    font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
-    color: #222;
-    margin-bottom: 20px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  color: #222;
+  margin-bottom: 20px;
 }
 
 #whatWeDid .content-box p {
-    font-family: 'Open Sans', sans-serif;
-    color: #777;
-    line-height: 24px;
-    margin-bottom: 15px;
+  font-family: "Open Sans", sans-serif;
+  color: #777;
+  line-height: 24px;
+  margin-bottom: 15px;
 }
 /*----------------------------------------------------------------*/
 #hww h3 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #000;
   text-align: center;
   text-transform: uppercase;
@@ -2031,17 +2432,17 @@ footer.footer2 .copyRight {
 }
 #hww .col-sm-4 h5 {
   font-size: 16px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #222222;
   margin-bottom: 20px;
   text-transform: uppercase;
 }
 #hww .col-sm-4 h5 span {
-  color: #ED3237;
+  color: #ed3237;
   margin-right: 5px;
 }
 #hww .col-sm-4 p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   line-height: 24px;
   color: #777777;
   font-size: 13px;
@@ -2050,21 +2451,21 @@ footer.footer2 .copyRight {
 #ourGreatServices .col-sm-4 .middleBox h4 {
   margin-top: 40px;
   text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
-  color: #ED3237;
+  font-family: "Montserrat", sans-serif;
+  color: #ed3237;
   font-weight: bold;
   margin-bottom: 25px;
 }
 #ourGreatServices .col-sm-4 .middleBox p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #777777;
   line-height: 24px;
   margin-bottom: 25px;
 }
 #ourGreatServices .col-sm-4 .middleBox a {
   text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
-  color: #ED3237;
+  font-family: "Montserrat", sans-serif;
+  color: #ed3237;
   line-height: 1;
 }
 #ourGreatServices .col-sm-4 .middleBox a i {
@@ -2095,11 +2496,11 @@ footer.footer2 .copyRight {
 #ourGreatServices .col-sm-4 .sideBox .icoPlus a {
   padding-right: 64px;
   line-height: 50px;
-  background: #ED3237;
+  background: #ed3237;
   display: inline-block;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 18px;
-  color: #FFF;
+  color: #fff;
   position: absolute;
   bottom: 0;
   right: 0;
@@ -2113,13 +2514,13 @@ footer.footer2 .copyRight {
 }
 #bringIdeas h3 {
   color: #222222;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
   margin-bottom: 50px;
   text-transform: uppercase;
 }
 #contactBanner {
-  background: #ED3237;
+  background: #ed3237;
   padding: 50px 0;
 }
 #contactBanner .container .row {
@@ -2127,34 +2528,34 @@ footer.footer2 .copyRight {
 }
 #contactBanner .container .row h3 {
   font-size: 25px;
-  font-family: 'Montserrat', sans-serif;
-  color: #FFF;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
   font-weight: bold;
   margin-top: 0;
   text-transform: uppercase;
 }
 #contactBanner .container .row h5 {
   font-weight: bold;
-  color: #FFF;
-  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   margin-bottom: 0;
 }
 #contactBanner .container .row a {
   padding: 0 23px;
   line-height: 40px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   text-transform: uppercase;
-  color: #FFF;
+  color: #fff;
   font-weight: 100;
   display: inline-block;
-  border: 1px solid  #FFF;
+  border: 1px solid #fff;
   border-radius: 0;
 }
 #pricing .pricing {
   text-align: center;
-  color: #FFF;
+  color: #fff;
   margin-top: 30px;
   transition: all 300ms ease-in-out 0s;
 }
@@ -2162,7 +2563,7 @@ footer.footer2 .copyRight {
   line-height: 60px;
   background: #333;
   text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 26px;
   font-weight: bold;
   transition: all 300ms ease-in-out 0s;
@@ -2182,7 +2583,7 @@ footer.footer2 .copyRight {
 #pricing .pricing .features .pricePerMonth span {
   line-height: 70px;
   font-size: 30px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #5a5b5e;
 }
 #pricing .pricing .features .list-group {
@@ -2206,28 +2607,28 @@ footer.footer2 .copyRight {
   line-height: 40px;
   display: inline-block;
   padding: 0 35px;
-  border: 1px solid  #FFF;
-  color: #FFF;
-  font-family: 'Montserrat', sans-serif;
+  border: 1px solid #fff;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
 }
 #pricing .pricing.active {
   margin-top: 0;
 }
 #pricing .pricing.active .pricingTitle {
-  background: #ED3237;
+  background: #ed3237;
 }
 #pricing .pricing.active .joinNow {
-  background: #ED3237;
+  background: #ed3237;
 }
 #pricing .pricing:hover {
   cursor: pointer;
 }
 #pricing .pricing:hover .pricingTitle {
-  background: #ED3237;
+  background: #ed3237;
 }
 #pricing .pricing:hover .joinNow {
-  background: #ED3237;
+  background: #ed3237;
 }
 #pricing .pricing:hover.active {
   margin-top: 0;
@@ -2239,7 +2640,7 @@ footer.footer2 .copyRight {
   background: #333;
 }
 #pricing .pricing:hover.active .joinNow a {
-  background: #ED3237;
+  background: #ed3237;
 }
 /*----------------------------------------------------------------*/
 #page404 {
@@ -2255,7 +2656,7 @@ footer.footer2 .copyRight {
   padding-bottom: 0;
 }
 .shortcodesRow h4.shortcodeHeading {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin-bottom: 30px;
   margin-top: 0;
   line-height: 1;
@@ -2266,7 +2667,7 @@ footer.footer2 .copyRight {
 .shortcodesRow p {
   margin: 0;
   font-size: 14px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   line-height: 24px;
   color: #777777;
 }
@@ -2275,7 +2676,7 @@ footer.footer2 .copyRight {
   padding-right: 30px;
 }
 .heading {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin-bottom: 20px;
   margin-top: 0;
   line-height: 1;
@@ -2302,7 +2703,7 @@ h6.heading {
 }
 /*Buttons*/
 .btn {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 15px;
   font-weight: normal;
   line-height: 40px;
@@ -2326,15 +2727,15 @@ h6.heading {
 }
 .btn.btn-default.filled {
   background: #333333;
-  color: #FFF;
+  color: #fff;
 }
 .btn.btn-primary {
-  border: 1px solid #ED3237;
-  color: #ED3237;
+  border: 1px solid #ed3237;
+  color: #ed3237;
 }
 .btn.btn-primary.filled {
-  background: #ED3237;
-  color: #FFF;
+  background: #ed3237;
+  color: #fff;
 }
 /*Dropcaps*/
 .dropcap:first-letter {
@@ -2344,24 +2745,24 @@ h6.heading {
   margin-right: 15px;
   margin-top: 5px;
   font-size: 40px;
-  font-family: 'Montserrat', sans-serif;
-  border: 2px solid #ED3237;
+  font-family: "Montserrat", sans-serif;
+  border: 2px solid #ed3237;
   color: #222222;
 }
 .dropcap.dropcaFill:first-letter {
-  background: #ED3237;
-  color: #FFF;
+  background: #ed3237;
+  color: #fff;
 }
 /*ToolTips*/
 span[data-toggle="tooltip"] {
-  color: #ED3237;
+  color: #ed3237;
   cursor: pointer;
 }
 .tooltip .tooltip-arrow {
   width: 15px;
   height: 15px;
   border: none;
-  background: #ED3237;
+  background: #ed3237;
   transform: rotate(45deg);
 }
 .tooltip.in {
@@ -2369,26 +2770,26 @@ span[data-toggle="tooltip"] {
 }
 .tooltip .tooltip-inner {
   border-radius: 0;
-  background: #ED3237;
-  font-family: 'Open Sans', sans-serif;
-  color: #FFF;
+  background: #ed3237;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
   padding: 5px 35px;
   line-height: 20px;
   text-transform: capitalize;
 }
 /*HighLights*/
 abbr[title] {
-  color: #ED3237;
-  border-bottom: 1px solid #ED3237;
+  color: #ed3237;
+  border-bottom: 1px solid #ed3237;
 }
 .primary-bg {
   background: #222222;
-  color: #FFF;
+  color: #fff;
   padding: 0 1px;
 }
 .base-bg {
-  background: #ED3237;
-  color: #FFF;
+  background: #ed3237;
+  color: #fff;
   padding: 0 1px;
 }
 .bold_italic {
@@ -2409,7 +2810,7 @@ abbr[title] {
   border: 1px solid #dcdcdc;
   margin: 0;
   text-transform: capitalize;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #454545;
   padding: 0 15px;
   line-height: 40px;
@@ -2470,20 +2871,24 @@ abbr[title] {
 }
 .shortcodeTabContent .tab-pane .reviewForm .ratingStars {
   font-size: 16px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   line-height: 40px;
 }
-.shortcodeTabContent .tab-pane .reviewForm .ratingStars .rating-symbol:first-child {
+.shortcodeTabContent
+  .tab-pane
+  .reviewForm
+  .ratingStars
+  .rating-symbol:first-child {
   margin-left: 10px;
 }
 .shortcodeTabContent .tab-pane .reviewForm .ratingStars .glyphicon {
   font-size: 22px;
-  color: #ED3237;
+  color: #ed3237;
 }
 .shortcodeTabContent .tab-pane .additionInfoRow {
   line-height: 40px;
   font-size: 15px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   letter-spacing: 0.5px;
   color: #777777;
 }
@@ -2503,7 +2908,7 @@ abbr[title] {
   padding: 0;
 }
 #accordion .panel .panel-heading h4 a.not_collapsed {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 18px;
   color: #777777;
   padding: 0 20px;
@@ -2531,7 +2936,7 @@ abbr[title] {
   margin-right: 7px;
 }
 #accordion .panel .panel-collapse .panel-body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #777777;
   line-height: 24px;
 }
@@ -2554,7 +2959,7 @@ abbr[title] {
   margin-top: 15px;
   display: inline-block;
   color: #222222;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 12px;
 }
 .service2 .media .media-body .readMore i {
@@ -2575,7 +2980,7 @@ abbr[title] {
   overflow: visible;
 }
 .custom_progress .progress-bar {
-  background: none #ED3237;
+  background: none #ed3237;
   box-shadow: none;
   position: relative;
 }
@@ -2589,7 +2994,7 @@ abbr[title] {
   z-index: -1;
 }
 .custom_progress .progress-bar .tooltip .tooltip-inner {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 12px;
   line-height: 20px;
   padding: 0 20px;
@@ -2602,7 +3007,7 @@ abbr[title] {
   border-radius: 0;
   border: 1px solid #dcdcdc;
   color: #aaa;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin-bottom: 0;
 }
 .customAlert + .alert {
@@ -2615,18 +3020,18 @@ abbr[title] {
 .customAlert i {
   width: 40px;
   line-height: 38px;
-  border: 1px solid #ED3237;
+  border: 1px solid #ed3237;
   border-radius: 100%;
   text-align: center;
   margin-left: 5px;
   margin-right: 15px;
 }
 .customAlert.success-alert button {
-  color: #ED3237;
+  color: #ed3237;
 }
 .customAlert.success-alert i {
-  color: #ED3237;
-  border-color: #ED3237;
+  color: #ed3237;
+  border-color: #ed3237;
 }
 .customAlert.error-alert button {
   color: #fc4a4a;
@@ -2655,7 +3060,7 @@ abbr[title] {
 }
 .testimonialStyle2 .testiInner {
   padding: 30px 30px 0;
-  background: #FFF;
+  background: #fff;
   border: 1px solid #dcdcdc;
 }
 .testimonialStyle2 p {
@@ -2679,12 +3084,12 @@ abbr[title] {
 }
 .testimonialStyle2 .clientInfo .clientName {
   text-transform: uppercase;
-  color: #ED3237;
+  color: #ed3237;
   padding-top: 10px;
 }
 .testimonialStyle2 .clientInfo .clientName:before {
   display: inline-block;
-  content: '\2014 \00A0';
+  content: "\2014 \00A0";
 }
 /*Testimonial Style 3*/
 .testimonialStyle3 {
@@ -2692,7 +3097,7 @@ abbr[title] {
 }
 .testimonialStyle3 .testiText {
   padding: 20px;
-  background: #FFF;
+  background: #fff;
   border: 1px solid #dcdcdc;
   color: #777777;
   margin-bottom: 20px;
@@ -2701,7 +3106,7 @@ abbr[title] {
 }
 .testimonialStyle3 .testiText:before,
 .testimonialStyle3 .testiText:after {
-  content: '';
+  content: "";
   bottom: -15px;
   left: calc(50% - 15px);
   border-left: 15px solid transparent;
@@ -2713,7 +3118,7 @@ abbr[title] {
 }
 .testimonialStyle3 .testiText:after {
   bottom: -14px;
-  border-top-color: #FFF;
+  border-top-color: #fff;
 }
 .testimonialStyle3 img {
   width: 95px;
@@ -2723,7 +3128,7 @@ abbr[title] {
 }
 .testimonialStyle3 .clientName {
   color: #222222;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 24px;
   text-transform: uppercase;
 }
@@ -2741,9 +3146,9 @@ abbr[title] {
 /*Testimonial Style 3*/
 .testimonialStyle4 {
   margin-top: 30px;
-  border-bottom: 2px solid #ED3237;
+  border-bottom: 2px solid #ed3237;
   padding: 30px 40px 20px;
-  background: #FFF;
+  background: #fff;
 }
 .testimonialStyle4 .testiText {
   padding-top: 15px;
@@ -2757,8 +3162,8 @@ abbr[title] {
   margin-bottom: 20px;
 }
 .testimonialStyle4 .clientName {
-  color: #ED3237;
-  font-family: 'Montserrat', sans-serif;
+  color: #ed3237;
+  font-family: "Montserrat", sans-serif;
   line-height: 24px;
   text-transform: uppercase;
 }
@@ -2780,18 +3185,18 @@ abbr[title] {
   width: 100%;
 }
 #mapBox #content .mapInfoWindowRowInner {
-  border: 1px solid #ED3237;
+  border: 1px solid #ed3237;
   padding: 10px 20px;
   text-align: center;
 }
 #mapBox #content .mapInfoWindowRowInner h5 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   color: #000;
   margin-bottom: 10px;
 }
 #mapBox #content .mapInfoWindowRowInner p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin-bottom: 0;
   color: #777777;
 }
@@ -2806,13 +3211,13 @@ abbr[title] {
   width: 40px;
   line-height: 40px;
   text-align: center;
-  color: #FFF;
+  color: #fff;
   background: #333333;
   font-size: 18px;
   border-radius: 100%;
 }
 .contactInfo .media-body h5 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .contactInfo .media-body h5.heading {
   margin: 7px 0 12px;
@@ -2892,7 +3297,7 @@ abbr[title] {
 }
 .latestPosts .latestPost .media-body p {
   font-size: 12px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #777777;
 }
 /*Tags*/
@@ -2908,12 +3313,12 @@ abbr[title] {
 }
 .tags .tagsNav li a {
   background: #777777;
-  color: #FFF;
+  color: #fff;
   line-height: 30px;
   padding: 0 20px;
   display: block;
   font-size: 16px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: bold;
   border-radius: 3px;
   margin-bottom: 5px;
@@ -2972,7 +3377,7 @@ abbr[title] {
 .shareRow ul li a:focus {
   background: #58ccff;
   border-color: #58ccff;
-  color: #FFF;
+  color: #fff;
 }
 /*Author And Comment Box*/
 .commentCount {
@@ -3011,7 +3416,7 @@ abbr[title] {
 .authorBox .media-body h6 {
   margin: 0;
   font-size: 12px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   line-height: 1;
   color: #777777;
 }
@@ -3021,7 +3426,7 @@ abbr[title] {
 }
 .commentBox .media-body p,
 .authorBox .media-body p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   line-height: 24px;
   color: #777777;
   margin: 20px 0 0;
@@ -3039,7 +3444,7 @@ abbr[title] {
 .authorBox .list-inline li a {
   color: #777777;
   text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .commentBox .list-inline li a i,
 .authorBox .list-inline li a i {
@@ -3064,7 +3469,7 @@ abbr[title] {
 #replyForm form label {
   font-weight: 600;
   font-size: 12px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #777777;
   text-shadow: none;
 }
@@ -3073,7 +3478,7 @@ abbr[title] {
   margin-bottom: 30px;
   box-shadow: none;
   border-color: #dcdcdc;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 #replyForm form textarea.form-control {
   height: 210px;
@@ -3116,7 +3521,7 @@ abbr[title] {
   background: #c2ac9b;
 }
 .colorSelect input[type="radio"]:checked + label {
-  border-color: #ED3237;
+  border-color: #ed3237;
   background: rgba(58, 181, 74, 0.3);
 }
 /*Centered Tab Menu*/
@@ -3135,7 +3540,7 @@ abbr[title] {
   border: 1px solid #dcdcdc;
   border-bottom: 1px solid #dcdcdc;
   color: #aaa;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .centeredTabMenu li a:hover,
 .centeredTabMenu li a:focus {
@@ -3169,12 +3574,12 @@ abbr[title] {
   padding-left: 100px;
   padding-right: 10px;
   font-size: 30px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 1;
   color: #222222;
 }
 .featuresTexts .media-body h5 {
-  color: #ED3237;
+  color: #ed3237;
   margin-top: 5px;
 }
 .featuresTexts .media-body p {
@@ -3184,9 +3589,9 @@ abbr[title] {
   margin-bottom: 5px;
 }
 .featuresTexts .media-body a {
-  color: #ED3237;
+  color: #ed3237;
   text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 12px;
   line-height: 22px;
   text-decoration: underline;
@@ -3195,7 +3600,7 @@ abbr[title] {
 .contactHeading {
   font-size: 20px;
   padding-bottom: 20px;
-  border-bottom: 2px solid  #ccc;
+  border-bottom: 2px solid #ccc;
   margin-bottom: 25px;
 }
 .contactForm {
@@ -3205,7 +3610,7 @@ abbr[title] {
   margin-bottom: 30px;
 }
 .contactForm #contactForm label {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 12px;
   font-weight: normal;
   color: #777777;
@@ -3245,7 +3650,7 @@ abbr[title] {
 .contactForm #success span,
 .contactForm #error span {
   line-height: 40px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   position: absolute;
   top: calc(50% - 20px);
@@ -3253,7 +3658,7 @@ abbr[title] {
   width: 100%;
 }
 .contactForm #success span {
-  color: #ED3237;
+  color: #ed3237;
 }
 .contactForm #error span {
   color: #fc4a4a;
@@ -3275,7 +3680,7 @@ abbr[title] {
   margin-bottom: 15px;
 }
 .blog .titleRow .date {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 22px;
   color: #777777;
   text-align: center;
@@ -3286,8 +3691,8 @@ abbr[title] {
   transition: all 300ms ease-in-out 0s;
 }
 .blog .titleRow .date:hover {
-  color: #ED3237;
-  border-color: #ED3237;
+  color: #ed3237;
+  border-color: #ed3237;
 }
 .blog .titleRow .date span {
   font-size: 18px;
@@ -3302,24 +3707,24 @@ abbr[title] {
   transition: all 300ms ease-in-out 0s;
 }
 .blog .titleRow .titlePart .blogTitle:hover {
-  color: #ED3237;
+  color: #ed3237;
 }
 .blog .titleRow .titlePart p {
   color: #777777;
   line-height: 30px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .blog .titleRow .titlePart p a {
   color: #777777;
 }
 .blog .titleRow .titlePart p a:hover {
-  color: #ED3237;
+  color: #ed3237;
 }
 .blog .titleRow .titlePart p span {
   margin: 0 15px;
 }
 .blog .excerpt {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   line-height: 24px;
   color: #777777;
@@ -3354,9 +3759,9 @@ abbr[title] {
   transition: all 300ms ease-in-out 0s;
 }
 .catalogBox .thumbnail .thumbnailInner .hoverBox a {
-  color: #FFF;
+  color: #fff;
   font-weight: bold;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   position: absolute;
   top: -500%;
@@ -3368,14 +3773,14 @@ abbr[title] {
   font-size: 36px;
 }
 .catalogBox .catalogType {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   color: #222222;
   line-height: 1.3;
 }
 .catalogBox .catalogType span {
   display: block;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
 }
 .catalogBox:hover .thumbnail .thumbnailInner .hoverBox {
@@ -3383,9 +3788,9 @@ abbr[title] {
   left: 0;
 }
 .catalogBox:hover .thumbnail .thumbnailInner .hoverBox a {
-  color: #FFF;
+  color: #fff;
   font-weight: bold;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   position: absolute;
   top: calc(50% - 34px);
@@ -3408,7 +3813,7 @@ abbr[title] {
   border: 1px solid #dcdcdc;
 }
 .login .loginInner label {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: normal;
   color: #777777;
 }
@@ -3428,8 +3833,8 @@ abbr[title] {
   margin-bottom: 0;
 }
 .login .loginInner .loginForm .form-group:last-child a {
-  color: #ED3237;
-  font-family: 'Open Sans', sans-serif;
+  color: #ed3237;
+  font-family: "Open Sans", sans-serif;
   margin-left: 20px;
   font-size: 12px;
 }
@@ -3438,7 +3843,7 @@ abbr[title] {
 }
 .login .loginInner .accountStart h3 {
   font-size: 22px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #222222;
   font-weight: 600;
   margin-bottom: 15px;
@@ -3456,7 +3861,7 @@ abbr[title] {
   text-transform: uppercase;
 }
 .orderSummaryInner table thead {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   color: #222222;
   border-bottom: 1px solid #dcdcdc;
@@ -3471,7 +3876,7 @@ abbr[title] {
 }
 .orderSummaryInner table tbody {
   color: #777777;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   border-bottom: 1px solid #dcdcdc;
   padding: 10px 0;
 }
@@ -3491,7 +3896,7 @@ abbr[title] {
 }
 .orderSummaryInner table tfoot tr {
   color: #222222;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
 }
 .orderSummaryInner table tfoot tr td {
@@ -3506,7 +3911,7 @@ abbr[title] {
   font-weight: 600;
 }
 .orderSummaryInner table tfoot tr:last-child {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: bold;
 }
@@ -3522,7 +3927,7 @@ abbr[title] {
   float: left;
 }
 .checkoutForm #shippingAddressEscape + label {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #000;
   font-size: 14px;
   font-weight: normal;
@@ -3536,7 +3941,7 @@ abbr[title] {
 }
 .checkoutForm .paymentMethodMode label {
   margin-bottom: 30px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: normal;
   color: #222222;
   display: block;
@@ -3568,7 +3973,7 @@ abbr[title] {
   line-height: 1;
   border: 1px solid #dcdcdc;
   border-top: 1px solid #dcdcdc !important;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
   color: #222222;
   white-space: nowrap;
@@ -3599,7 +4004,7 @@ abbr[title] {
 }
 .cartTable .table tbody tr td.price {
   font-size: 18px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 1.2;
   color: #222222;
 }
@@ -3611,8 +4016,8 @@ abbr[title] {
   display: inline-block;
   width: 40px;
   line-height: 40px;
-  background: #ED3237;
-  color: #FFF;
+  background: #ed3237;
+  color: #fff;
   text-align: center;
   font-size: 18px;
 }
@@ -3635,7 +4040,7 @@ abbr[title] {
 }
 .cartTable .table tfoot tr td a.fright:hover {
   background-color: transparent;
-  border-color: #ED3237;
+  border-color: #ed3237;
 }
 .discountCupon {
   border: 1px solid #dcdcdc;
@@ -3672,7 +4077,10 @@ abbr[title] {
   margin-bottom: 20px;
   box-shadow: none;
 }
-.shippingTax .countrySelect.bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+.shippingTax
+  .countrySelect.bootstrap-select:not([class*="col-"]):not(
+    [class*="form-control"]
+  ):not(.input-group-btn) {
   width: 100%;
   margin-bottom: 10px;
 }
@@ -3681,10 +4089,10 @@ abbr[title] {
   color: #777777;
   padding: 0 15px;
   line-height: 28px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 .shippingTax label {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 12px;
   font-weight: normal;
   color: #222222;
@@ -3703,13 +4111,13 @@ abbr[title] {
   display: block;
   line-height: 1;
   color: #777777;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin-top: 10px;
 }
 .totalCheckout .descList dl dt,
 .totalCheckout .descList dl dd {
   text-align: right;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #777777;
   font-size: 14px;
   font-weight: normal;
@@ -3720,7 +4128,7 @@ abbr[title] {
 .totalCheckout .descList dl dd.gt {
   color: #222222;
   font-size: 16px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
   margin-top: 5px;
 }
@@ -3736,7 +4144,7 @@ abbr[title] {
   padding: 20px 0;
 }
 .proMedia .media + .media {
-  border-top: 1px solid  #cfdae3;
+  border-top: 1px solid #cfdae3;
 }
 .proMedia .media .media-left {
   padding: 0;
@@ -3753,7 +4161,7 @@ abbr[title] {
   padding-left: 20px;
 }
 .proMedia .media .media-body h5 {
-  color: #ED3237;
+  color: #ed3237;
   margin: 0;
 }
 .proMedia .media .media-body h5 del {
@@ -3767,7 +4175,7 @@ abbr[title] {
   margin-bottom: 0;
 }
 .proMedia.topRated .media-body h5 {
-  color: #ED3237;
+  color: #ed3237;
 }
 .proMedia.topRated .media-body h5 del {
   margin-right: 10px;
@@ -3789,7 +4197,7 @@ abbr[title] {
   text-align: center;
 }
 #welcome2furniture p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #777777;
   line-height: 24px;
   max-width: 880px;
@@ -3814,30 +4222,29 @@ abbr[title] {
 }
 /*----------------------------------------------------------------*/
 
-
 /* NEW Modification Updates */
 /* ========================================================
    FIXED & TRANSPARENT HEADER
    ======================================================== */
 
 #header2 {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 99999; /* Ensures the header always stays above sliders and images */
-    
-    /* 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99999; /* Ensures the header always stays above sliders and images */
+
+  /* 
        BACKGROUND COLOR & TRANSPARENCY:
        rgba(Red, Green, Blue, Alpha/Transparency)
        255, 255, 255 is pure white. 
        0.9 means 90% solid, 10% transparent. 
        Change 0.9 to 0.8 or 0.7 if you want it more see-through.
     */
-    background-color: rgba(255, 255, 255, 0.7); 
-    
-    /* Optional: Adds a very soft shadow so it separates beautifully from the content scrolling underneath it */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05); 
+  background-color: rgba(255, 255, 255, 0.7);
+
+  /* Optional: Adds a very soft shadow so it separates beautifully from the content scrolling underneath it */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
 }
 
 /* 
@@ -3845,21 +4252,20 @@ abbr[title] {
    Note: If your header is taller or shorter, adjust this 100px value until the slider sits perfectly underneath it.
 */
 body {
-    padding-top: 115px; 
+  padding-top: 115px;
 }
 /* Adjust body padding for mobile devices (screens smaller than 768px) */
 @media (max-width: 767px) {
-    body {
-        padding-top: 76px;
-    }
+  body {
+    padding-top: 76px;
+  }
 }
 /* ========================================================
    MOBILE & TABLET STYLES (Max Width: 767px)
    ======================================================== */
 @media (max-width: 767px) {
-  
   #header2 {
-    height: auto; 
+    height: auto;
     /* padding-top: 15px;
     padding-bottom: 15px; */
   }
@@ -3867,12 +4273,12 @@ body {
   /* 1. Slightly Bigger Logo & Align Left */
   #header2 .logo {
     float: left;
-    width: 50%; 
+    width: 50%;
     text-align: left;
     padding: 0 15px;
   }
   #header2 .logo a {
-    line-height: 45px; 
+    line-height: 45px;
   }
   #header2 .logo a img {
     max-width: 200px; /* Increased from 120px */
@@ -3880,46 +4286,46 @@ body {
     margin-top: 5vw;
   }
 
-/* 2. Align Hamburger Menu Button to the Right (Softer, Lighter Look) */
+  /* 2. Align Hamburger Menu Button to the Right (Softer, Lighter Look) */
   #header2 .menu {
     float: right;
-    width: 50%; 
-    position: static; 
+    width: 50%;
+    position: static;
   }
   #header2 .menu .navbar {
     margin: 0;
   }
-  
+
   /* Target the button and ALL of its states */
   #header2 .menu .navbar .navbar-header button,
   #header2 .menu .navbar .navbar-header button:hover,
   #header2 .menu .navbar .navbar-header button:focus,
   #header2 .menu .navbar .navbar-header button[aria-expanded="true"],
   #header2 .menu .navbar .navbar-header button[aria-expanded="false"] {
-    width: auto; 
-    float: right; 
-    margin: 18px 15px 0 0; 
-    padding: 5px 10px; 
+    width: auto;
+    float: right;
+    margin: 18px 15px 0 0;
+    padding: 5px 10px;
     font-size: 22px; /* Slightly reduced from 24px to make the lines thinner */
-    background: transparent !important; 
+    background: transparent !important;
     color: #666666 !important; /* Changed from #222222 to a softer, lighter grey */
     border: none !important;
-    box-shadow: none !important; 
+    box-shadow: none !important;
   }
 
   /* 3. Dropdown Menu Layout Fix */
   #header2 .menu .navbar-collapse {
     position: absolute;
-    top: 100%; 
+    top: 100%;
     left: 0;
     width: 100%;
-    background-color: #ffffff; 
+    background-color: #ffffff;
     z-index: 9999;
     border-top: 1px solid #eeeeee;
   }
-  
+
   #header2 .menu .navbar #mainNav2 ul li a {
-    line-height: 45px; 
+    line-height: 45px;
   }
 
   /* 4. Disable Hover Colors for Mobile/Touch */
@@ -3927,7 +4333,7 @@ body {
   #header2 .menu .navbar #mainNav2 ul li a:focus {
     color: #222222 !important; /* Forces main links to stay dark grey */
   }
-  
+
   #header2 .menu .navbar #mainNav2 ul li.dropdown ul li a:hover,
   #header2 .menu .navbar #mainNav2 ul li.open ul li a:hover {
     color: #777777 !important; /* Forces dropdown links to stay light grey */
@@ -3936,20 +4342,27 @@ body {
   /* ========================================================
      ANIMATE HAMBURGER TO CROSS (X) ON OPEN
      ======================================================== */
-  
+
   /* When the button's aria-expanded state is true, change the Font Awesome icon content */
-  #header2 .menu .navbar .navbar-header button[aria-expanded="true"] .fa-bars::before {
+  #header2
+    .menu
+    .navbar
+    .navbar-header
+    button[aria-expanded="true"]
+    .fa-bars::before {
     content: "\f00d"; /* This is the official Font Awesome unicode for the 'X' icon */
   }
-  
+
   /* Optional: Add a smooth rotation effect when it changes */
   #header2 .menu .navbar .navbar-header button .fa-bars {
     transition: transform 0.3s ease-in-out;
     display: inline-block;
   }
-  
+
   #header2 .menu .navbar .navbar-header button[aria-expanded="true"] .fa-bars {
-    transform: rotate(90deg); /* Spins the icon slightly as it turns into an X */
+    transform: rotate(
+      90deg
+    ); /* Spins the icon slightly as it turns into an X */
   }
 }
 
@@ -3959,82 +4372,82 @@ body {
 
 /* Size the new logo appropriately */
 footer .topFooter .widget .footer-logo img {
-    max-width: 180px; 
-    height: auto;
-    display: block;
+  max-width: 180px;
+  height: auto;
+  display: block;
 }
 
 /* Add spacing beneath the logo */
 footer .topFooter .widget .footer-desc {
-    margin-top: 15px;
+  margin-top: 15px;
 }
 
 /* Style the new Contact Info List */
 footer .topFooter .widget .contact-info-list {
-    list-style: none;
-    padding: 0;
-    margin: 0 0 20px 0;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
 }
 
 footer .topFooter .widget .contact-info-list li {
-    font-family: 'Open Sans', sans-serif;
-    color: #FFF;
-    margin-bottom: 12px;
-    display: flex; 
-    align-items: flex-start; /* Default for wrapping text like addresses */
-    line-height: 24px;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: flex-start; /* Default for wrapping text like addresses */
+  line-height: 24px;
 }
 
 /* Modifier for single-line items like phone/email to center icons properly */
 footer .topFooter .widget .contact-info-list li.align-center {
-    align-items: center;
+  align-items: center;
 }
 
 footer .topFooter .widget .contact-info-list li i {
-    color: #ED3237; 
-    font-size: 16px;
-    margin-right: 15px;
-    margin-top: 4px;
-    min-width: 16px;
-    text-align: center;
+  color: #ed3237;
+  font-size: 16px;
+  margin-right: 15px;
+  margin-top: 4px;
+  min-width: 16px;
+  text-align: center;
 }
 
 /* Remove top margin for centered icons */
 footer .topFooter .widget .contact-info-list li.align-center i {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 footer .topFooter .widget .contact-info-list li a {
-    color: #FFF;
-    text-decoration: none;
-    transition: color 0.3s ease;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
 }
 
 footer .topFooter .widget .contact-info-list li a:hover {
-    color: #ED3237;
+  color: #ed3237;
 }
 
 /* Style for Inquiry sub-headings (Sales Head / Email) */
 footer .topFooter .widget .inquiry-title {
-    color: #FFF;
-    font-size: 13px;
-    text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
-    margin: 0 0 8px 0;
-    font-weight: bold;
+  color: #fff;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  margin: 0 0 8px 0;
+  font-weight: bold;
 }
 
-.foot-title{
+.foot-title {
   font-weight: bold;
 }
 
 /* Social Media & Copyright Alignments */
 footer .topFooter .widget .social-icons {
-    margin-top: 15px;
+  margin-top: 15px;
 }
 
 footer .copyRight .fcenter {
-    text-align: center;
+  text-align: center;
 }
 
 /* ========================================================
@@ -4043,125 +4456,125 @@ footer .copyRight .fcenter {
 
 /* 1. The Grid Layout */
 .fm-category-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Forces 3 columns exactly */
-    gap: 30px; /* Perfect spacing between boxes */
-    width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Forces 3 columns exactly */
+  gap: 30px; /* Perfect spacing between boxes */
+  width: 100%;
 }
 
 /* 2. Responsive Breakpoints */
 @media (max-width: 991px) {
-    .fm-category-grid {
-        grid-template-columns: repeat(2, 1fr); /* 2 columns on tablets */
-    }
+  .fm-category-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on tablets */
+  }
 }
 @media (max-width: 767px) {
-    .fm-category-grid {
-        grid-template-columns: 1fr; /* 1 column stacked on mobile */
-        gap: 20px;
-    }
+  .fm-category-grid {
+    grid-template-columns: 1fr; /* 1 column stacked on mobile */
+    gap: 20px;
+  }
 }
 
 /* 3. The Card Box */
 .fm-card {
-    background: #ffffff;
-    border: 1px solid #eeeeee;
-    padding: 15px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    transition: all 0.3s ease;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  padding: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 0.3s ease;
 }
 
 .fm-card:hover {
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
-    border-color: #ED3237;
-    transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  border-color: #ed3237;
+  transform: translateY(-5px);
 }
 
 /* 4. The Image Area */
 .fm-thumb {
-    position: relative;
-    overflow: hidden;
-    margin-bottom: 15px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 15px;
 }
 
 .fm-thumb img {
-    width: 100%;
-    display: block;
-    height: auto;
+  width: 100%;
+  display: block;
+  height: auto;
 }
 
 /* 5. The Hover Overlay Animation */
 .fm-hover-box {
-    position: absolute;
-    top: 100%; /* Hides it below the image */
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.6);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: top 0.3s ease;
+  position: absolute;
+  top: 100%; /* Hides it below the image */
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: top 0.3s ease;
 }
 
 .fm-card:hover .fm-hover-box {
-    top: 0; /* Slides up smoothly on hover */
+  top: 0; /* Slides up smoothly on hover */
 }
 
 .fm-hover-box a {
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: 700;
-    font-family: 'Montserrat', sans-serif;
-    text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
 }
 
 .fm-hover-box i {
-    font-size: 30px;
-    margin-bottom: 8px;
+  font-size: 30px;
+  margin-bottom: 8px;
 }
 
 /* 6. Text and Buttons */
 .fm-details {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }
 
 .fm-title {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
-    font-weight: 600;
-    color: #222222;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-    line-height: 1.3;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #222222;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  line-height: 1.3;
 }
 
 .fm-explore {
-    margin-top: auto; /* Always pushes button to the bottom */
-    font-size: 14px;
-    font-weight: 700;
-    color: #ED3237;
-    text-transform: uppercase;
-    text-decoration: none;
-    transition: all 0.3s ease;
+  margin-top: auto; /* Always pushes button to the bottom */
+  font-size: 14px;
+  font-weight: 700;
+  color: #ed3237;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all 0.3s ease;
 }
 
 .fm-card:hover .fm-explore {
-    color: #2176BB;
+  color: #2176bb;
 }
 
 .fm-explore i {
-    margin-left: 5px;
-    transition: transform 0.3s ease;
+  margin-left: 5px;
+  transition: transform 0.3s ease;
 }
 
 .fm-card:hover .fm-explore i {
-    transform: translateX(5px);
+  transform: translateX(5px);
 }
 
 /* ========================================================
@@ -4169,90 +4582,96 @@ footer .copyRight .fcenter {
    ======================================================== */
 
 #slider2 .sliderCont2 .slides .text_lines {
-    height: auto !important; 
-    padding: 30px 0 !important; 
-    top: 50% !important; 
-    transform: translateY(-50%) !important; 
-    text-align: left !important; /* Forces left alignment */
+  height: auto !important;
+  padding: 30px 0 !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  text-align: left !important; /* Forces left alignment */
 }
 
 /* 1. Main Heading */
 #slider2 .sliderCont2 .slides .text_lines h3 {
-    font-size: 38px !important; 
-    font-weight: 700 !important; 
-    text-transform: none !important; 
-    line-height: 1.3 !important;
-    margin-bottom: 15px !important; 
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.5); 
+  font-size: 38px !important;
+  font-weight: 700 !important;
+  text-transform: none !important;
+  line-height: 1.3 !important;
+  margin-bottom: 15px !important;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 /* 2. Subheading Text */
 .slider-subtext {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
-    color: #ffffff;
-    margin-bottom: 25px !important;
-    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
-    max-width: 700px; 
-    line-height: 1.6;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 25px !important;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  max-width: 700px;
+  line-height: 1.6;
 }
 
 /* ========================================================
    BUTTON HOVER ANIMATION (BULLETPROOF FIX)
    ======================================================== */
 .slider-btn {
-    position: relative; 
-    display: inline-block;
-    background-color: transparent !important; /* Make button background transparent so layers show */
-    color: #000000 !important;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-decoration: none !important;
-    padding: 12px 35px;
-    border-radius: 3px;
-    overflow: hidden; 
-    z-index: 1; /* Keeps the text layer firmly on top */
-    transition: color 0.4s ease-in-out !important; 
+  position: relative;
+  display: inline-block;
+  background-color: transparent !important; /* Make button background transparent so layers show */
+  color: #000000 !important;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none !important;
+  padding: 12px 35px;
+  border-radius: 3px;
+  overflow: hidden;
+  z-index: 1; /* Keeps the text layer firmly on top */
+  transition: color 0.4s ease-in-out !important;
 }
 
 .slider-btn i {
-    margin-left: 8px;
+  margin-left: 8px;
 }
 
 /* Layer 1: The Default White Background (Bottom Layer) */
 .slider-btn::after {
-    content: '';
-    position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
-    background-color: #ffffff;
-    z-index: -2; /* Sits underneath everything */
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ffffff;
+  z-index: -2; /* Sits underneath everything */
 }
 
 /* Layer 2: The Black Hover Swipe (Middle Layer) */
 .slider-btn::before {
-    content: '';
-    position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
-    background-color: #000000;
-    z-index: -1; /* Sits above the white background, but safely BELOW the text */
-    transform: scaleX(0);
-    transform-origin: right; 
-    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #000000;
+  z-index: -1; /* Sits above the white background, but safely BELOW the text */
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Layer 3: The Text Color Change (Top Layer) */
 /* Added #slider2 here to forcefully override any stubborn template link colors */
 #slider2 .slider-btn:hover,
 .slider-btn:hover {
-    color: #ffffff !important; 
+  color: #ffffff !important;
 }
 
 /* Trigger the left-to-right swipe */
 .slider-btn:hover::before {
-    transform: scaleX(1);
-    transform-origin: left; 
+  transform: scaleX(1);
+  transform-origin: left;
 }
 
 /* ========================================================
@@ -4263,153 +4682,153 @@ footer .copyRight .fcenter {
 #slider2 .sliderCont2 .slides li .text_lines h3,
 #slider2 .sliderCont2 .slides li .text_lines .slider-subtext,
 #slider2 .sliderCont2 .slides li .text_lines .slider-btn {
-    opacity: 0;
-    transform: translateY(30px);
-    transition: all 0.6s cubic-bezier(0.2, 0.8, 0.2, 1);
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.6s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 /* Step B: When Flexslider makes the slide active, slide them up into place */
 #slider2 .sliderCont2 .slides li.flex-active-slide .text_lines h3 {
-    opacity: 1;
-    transform: translateY(0);
-    transition-delay: 0.2s; /* Loads first */
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 0.2s; /* Loads first */
 }
 
 #slider2 .sliderCont2 .slides li.flex-active-slide .text_lines .slider-subtext {
-    opacity: 1;
-    transform: translateY(0);
-    transition-delay: 0.4s; /* Loads second */
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 0.4s; /* Loads second */
 }
 
 #slider2 .sliderCont2 .slides li.flex-active-slide .text_lines .slider-btn {
-    opacity: 1;
-    transform: translateY(0);
-    transition-delay: 0.6s; /* Loads third */
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 0.6s; /* Loads third */
 }
 
 /* Mobile Adjustments */
 @media (max-width: 767px) {
-    #slider2 .sliderCont2 .slides .text_lines h3 {
-        font-size: 24px !important;
-        margin-bottom: 10px !important;
-    }
-    .slider-subtext {
-        font-size: 14px;
-        margin-bottom: 20px !important;
-        padding-right: 15px; /* Keeps text from touching screen edge */
-    }
-    .slider-btn {
-        padding: 10px 25px;
-        font-size: 14px;
-    }
+  #slider2 .sliderCont2 .slides .text_lines h3 {
+    font-size: 24px !important;
+    margin-bottom: 10px !important;
+  }
+  .slider-subtext {
+    font-size: 14px;
+    margin-bottom: 20px !important;
+    padding-right: 15px; /* Keeps text from touching screen edge */
+  }
+  .slider-btn {
+    padding: 10px 25px;
+    font-size: 14px;
+  }
 }
 
 /* ========================================================
    PARTNERS FAQ ACCORDION
    ======================================================== */
 .partner-faq-section {
-    padding: 15px 0;
-    background-color: #f9f9f9;
+  padding: 15px 0;
+  background-color: #f9f9f9;
 }
 
 .partner-faq-section .panel-default {
-    border-color: #eeeeee;
-    border-radius: 0;
-    margin-bottom: 15px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  border-color: #eeeeee;
+  border-radius: 0;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
 
 .partner-faq-section .panel-heading {
-    background-color: #ffffff;
-    padding: 0;
+  background-color: #ffffff;
+  padding: 0;
 }
 
 .partner-faq-section .panel-title a {
-    display: block;
-    padding: 18px 20px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    color: #222222;
-    text-decoration: none;
-    /* text-transform: uppercase; */
-    position: relative;
+  display: block;
+  padding: 18px 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #222222;
+  text-decoration: none;
+  /* text-transform: uppercase; */
+  position: relative;
 }
 
 /* Add a + and - icon to the accordion headers */
 .partner-faq-section .panel-title a:after {
-    content: "\f068"; /* FontAwesome minus */
-    font-family: 'FontAwesome';
-    position: absolute;
-    right: 20px;
-    color: #ED3237;
+  content: "\f068"; /* FontAwesome minus */
+  font-family: "FontAwesome";
+  position: absolute;
+  right: 20px;
+  color: #ed3237;
 }
 
 .partner-faq-section .panel-title a.collapsed:after {
-    content: "\f067"; /* FontAwesome plus */
-    color: #999999;
+  content: "\f067"; /* FontAwesome plus */
+  color: #999999;
 }
 
 .partner-faq-section .panel-title a:hover {
-    color: #ED3237;
+  color: #ed3237;
 }
 
 .partner-faq-section .panel-body {
-    border-top: 1px solid #eeeeee !important;
-    background-color: #ffffff;
-    padding: 30px;
-    text-align: center;
+  border-top: 1px solid #eeeeee !important;
+  background-color: #ffffff;
+  padding: 30px;
+  text-align: center;
 }
 
 /* Styling for the client logos inside the answers */
 .partner-logo-item {
-    display: inline-block;
-    max-width: 150px;
-    margin: 15px 25px;
-    vertical-align: middle;
-    transition: transform 0.3s ease;
+  display: inline-block;
+  max-width: 150px;
+  margin: 15px 25px;
+  vertical-align: middle;
+  transition: transform 0.3s ease;
 }
 
 .partner-logo-item:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .partner-logo-item img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 /* ========================================================
    FEATURED PRODUCTS MAIN BUTTON
    ======================================================== */
 .main-featured-btn {
-    display: inline-block;
-    background-color: #ED3237; 
-    color: #ffffff !important;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-decoration: none !important;
-    padding: 12px 35px;
-    border-radius: 3px;
-    border: 2px solid #ED3237;
-    transition: all 0.3s ease-in-out;
+  display: inline-block;
+  background-color: #ed3237;
+  color: #ffffff !important;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none !important;
+  padding: 12px 35px;
+  border-radius: 3px;
+  border: 2px solid #ed3237;
+  transition: all 0.3s ease-in-out;
 }
 
 .main-featured-btn i {
-    margin-left: 8px;
-    transition: transform 0.3s ease;
+  margin-left: 8px;
+  transition: transform 0.3s ease;
 }
 
 /* Button Hover Effect */
 .main-featured-btn:hover {
-    background-color: transparent;
-    color: #ED3237 !important;
+  background-color: transparent;
+  color: #ed3237 !important;
 }
 
 .main-featured-btn:hover i {
-    transform: translateX(5px); /* Arrow slides slightly to the right */
+  transform: translateX(5px); /* Arrow slides slightly to the right */
 }
 
 /* =========================================
@@ -4417,141 +4836,141 @@ PRODUCT SHOWCASE STYLING
 ========================================= */
 
 .productShowcase {
-    padding: 40px 0;
-    background: #f8f8f8;
+  padding: 40px 0;
+  background: #f8f8f8;
 }
 
 /* Main Product Row */
 .productItem {
-    margin-bottom: 30px; /* Gives nice breathing room between the 12 boxes */
-    background: #fff;
-    border-radius: 18px;
-    overflow: hidden;
-    box-shadow: 0 12px 40px rgba(0,0,0,0.08);
-    padding: 20px 10px;
+  margin-bottom: 30px; /* Gives nice breathing room between the 12 boxes */
+  background: #fff;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08);
+  padding: 20px 10px;
 
-    /* Vertical center alignment */
-    display: flex;
-    align-items: center;
+  /* Vertical center alignment */
+  display: flex;
+  align-items: center;
 
-    position: relative;
+  position: relative;
 }
 
 /* Image Box */
 .productImageBox {
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 350px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 350px;
 }
 
 /* Product Image */
 .productImageBox img {
-    max-width: 90%;
-    filter: drop-shadow(0 10px 25px rgba(0,0,0,0.12));
-    transition: transform 0.3s ease;
+  max-width: 90%;
+  filter: drop-shadow(0 10px 25px rgba(0, 0, 0, 0.12));
+  transition: transform 0.3s ease;
 }
 
 .productImageBox img:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 /* Content Box */
 .productContentBox {
-    padding: 10px 30px;
+  padding: 10px 30px;
 }
 
 /* Product Heading */
 .productContentBox h2 {
-    font-size: 34px;
-    font-weight: 700;
-    color: #222;
-    margin-bottom: 22px;
-    position: relative;
+  font-size: 34px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 22px;
+  position: relative;
 }
 
 /* Underline */
 .productContentBox h2:after {
-    content: "";
-    width: 70px;
-    height: 4px;
-    background: #e31837; /* Updated to your red */
-    display: block;
-    margin-top: 12px;
+  content: "";
+  width: 70px;
+  height: 4px;
+  background: #e31837; /* Updated to your red */
+  display: block;
+  margin-top: 12px;
 }
 
 /* Description */
 .productContentBox p {
-    font-size: 15px;
-    line-height: 30px;
-    color: #666;
-    margin-bottom: 25px;
+  font-size: 15px;
+  line-height: 30px;
+  color: #666;
+  margin-bottom: 25px;
 }
 
 /* Feature List */
 .productFeatures {
-    padding: 0;
-    margin: 0 0 28px;
-    list-style: none;
+  padding: 0;
+  margin: 0 0 28px;
+  list-style: none;
 }
 
 .productFeatures li {
-    margin-bottom: 14px;
-    font-size: 15px;
-    color: #444;
+  margin-bottom: 14px;
+  font-size: 15px;
+  color: #444;
 }
 
 .productFeatures li i {
-    color: #e31837; /* Updated to your red */
-    margin-right: 12px;
-    font-size: 14px;
+  color: #e31837; /* Updated to your red */
+  margin-right: 12px;
+  font-size: 14px;
 }
 
 /* Button Styling */
 .productBtn {
-    background: #e31837; /* Updated to your red */
-    color: #fff;
-    padding: 12px 28px;
-    border-radius: 4px;
-    font-size: 14px;
-    font-weight: 600;
-    letter-spacing: 0.5px;
-    border: none;
-    text-transform: uppercase;
-    display: inline-block;
-    transition: background 0.3s ease;
+  background: #e31837; /* Updated to your red */
+  color: #fff;
+  padding: 12px 28px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  border: none;
+  text-transform: uppercase;
+  display: inline-block;
+  transition: background 0.3s ease;
 }
 
 .productBtn:hover {
-    background: #222222;
-    color: #fff;
-    text-decoration: none;
+  background: #222222;
+  color: #fff;
+  text-decoration: none;
 }
 
 /* MOBILE RESPONSIVE */
 @media (max-width: 991px) {
-    .productItem {
-        display: block;
-        padding: 30px 20px;
-    }
+  .productItem {
+    display: block;
+    padding: 30px 20px;
+  }
 
-    .productImageBox {
-        min-height: auto;
-        margin-bottom: 30px;
-    }
+  .productImageBox {
+    min-height: auto;
+    margin-bottom: 30px;
+  }
 
-    .productContentBox {
-        padding: 10px 5px;
-    }
+  .productContentBox {
+    padding: 10px 5px;
+  }
 
-    .productContentBox h2 {
-        font-size: 28px;
-    }
+  .productContentBox h2 {
+    font-size: 28px;
+  }
 
-    .productItem {
-        margin-bottom: 40px;
-    }
+  .productItem {
+    margin-bottom: 40px;
+  }
 }
 
 /* =========================================
@@ -4559,136 +4978,346 @@ PRODUCT SHOWCASE STYLING
    ========================================= */
 
 .category-header-box {
-    margin-bottom: 10px;
-    padding: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
 }
 
 .premium-category-title {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 42px;
-    font-weight: 800;
-    color: #222222;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    margin-bottom: 15px;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.05); /* Adds a subtle 3D pop */
+  font-family: "Montserrat", sans-serif;
+  font-size: 42px;
+  font-weight: 800;
+  color: #222222;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 15px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.05); /* Adds a subtle 3D pop */
 }
 
 /* Custom Divider with Icon */
 .premium-divider {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
 .premium-divider .line {
-    height: 3px;
-    width: 60px;
-    background-color: #e31837; /* Firemart Red */
-    border-radius: 2px;
+  height: 3px;
+  width: 60px;
+  background-color: #e31837; /* Firemart Red */
+  border-radius: 2px;
 }
 
 .premium-divider .icon {
-    font-size: 24px;
-    color: #e31837; /* Firemart Red */
-    margin: 0 15px;
+  font-size: 24px;
+  color: #e31837; /* Firemart Red */
+  margin: 0 15px;
 }
 
 /* Subtitle Styling */
 .premium-category-subtitle {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    color: #555555;
-    line-height: 1.8;
-    font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: #555555;
+  line-height: 1.8;
+  font-weight: 400;
 }
 
 /* Mobile Responsive Adjustments */
 @media (max-width: 767px) {
-    .premium-category-title {
-        font-size: 28px;
-    }
-    .premium-divider .line {
-        width: 40px;
-    }
-    .premium-category-subtitle {
-        font-size: 14px;
-    }
+  .premium-category-title {
+    font-size: 28px;
+  }
+  .premium-divider .line {
+    width: 40px;
+  }
+  .premium-category-subtitle {
+    font-size: 14px;
+  }
 }
 
 /* =========================================
-   AUTOMATIC POPUP MODAL STYLING
-   ========================================= */
+PROFESSIONAL POPUP MODAL STYLING
+========================================= */
 
-/* .custom-modal-content {
-    border-radius: 8px;
-    border: none;
-    box-shadow: 0 15px 50px rgba(0,0,0,0.3);
+/* Dark Background Overlay */
+.modal-backdrop.in {
+  opacity: 0.6 !important;
+  background-color: #000000 !important;
 }
 
+/* Modal Dialog */
+.modal-dialog {
+  margin-top: 150px;
+}
+
+/* Main Modal Box */
+.custom-modal-content {
+  background: #ffffff;
+  border-radius: 12px;
+  border: none;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.45);
+  position: relative;
+  z-index: 9999;
+}
+
+/* Header */
 .custom-modal-header {
-    background-color: #e31837; 
-    color: #ffffff;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-    text-align: center;
-    padding: 20px;
+  background: linear-gradient(135deg, #e31837, #b5122b);
+  color: #ffffff;
+  text-align: center;
+  padding: 15px 25px;
+  border-bottom: none;
+  position: relative;
 }
 
 .custom-modal-header .modal-title {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-size: 22px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  margin: 0;
+  letter-spacing: 0.5px;
 }
 
+/* Close Button */
 .custom-modal-header .close {
-    color: #ffffff;
-    opacity: 0.8;
-    text-shadow: none;
-    font-size: 28px;
-    margin-top: -5px;
+  color: #ffffff;
+  opacity: 1;
+  text-shadow: none;
+  font-size: 30px;
+  position: absolute;
+  right: 18px;
+  top: 12px;
 }
 
 .custom-modal-header .close:hover {
-    opacity: 1;
-} */
+  opacity: 0.8;
+}
 
-/* Form Inputs Styling */
-/* .popup-input {
-    border-radius: 4px;
-    border: 1px solid #cccccc;
-    box-shadow: none;
-    height: 45px;
-    font-size: 14px;
-    font-family: 'Open Sans', sans-serif;
+/* Modal Body */
+.modal-body {
+  background: #ffffff;
+  padding: 30px;
+}
+
+.modal-body p {
+  color: #555555;
+  font-size: 15px;
+  line-height: 1.7;
+  margin-bottom: 25px;
+}
+
+/* Form Inputs */
+.popup-input {
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid #dcdcdc;
+  box-shadow: none;
+  height: 44px;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  padding: 10px 15px;
+  transition: all 0.3s ease;
+  background: #ffffff;
 }
 
 textarea.popup-input {
-    height: auto;
+  min-height: 80px;
+  resize: vertical;
+  padding-top: 12px;
 }
 
+/* Input Focus Effect */
 .popup-input:focus {
-    border-color: #e31837;
-    box-shadow: 0 0 5px rgba(227, 24, 55, 0.2);
-} */
+  border-color: #e31837;
+  box-shadow: 0 0 10px rgba(227, 24, 55, 0.2);
+  outline: none;
+}
 
 /* Submit Button */
-/* .popup-submit-btn {
-    background-color: #e31837;
-    color: #ffffff;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    text-transform: uppercase;
-    font-size: 16px;
-    padding: 12px;
-    border-radius: 4px;
-    transition: all 0.3s ease;
-    border: none;
-    margin-top: 10px;
+.popup-submit-btn {
+  background: #e31837;
+  color: #fff;
+  padding: 5px 28px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  border: none;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-top: 12px;
+  transition: background 0.3s ease;
 }
 
+/* Hover */
 .popup-submit-btn:hover {
-    background-color: #222222;
-    color: #ffffff;
-} */
+  background: #222222;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Hover Effect */
+.popup-submit-btn:hover {
+  background: linear-gradient(135deg, #111111, #333333);
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.modal.in .modal-dialog {
+  transform: translateY(0);
+}
+
+/* Mobile Responsive */
+@media (max-width: 767px) {
+  .modal-dialog {
+    margin: 20px;
+    margin-top: 120px;
+  }
+
+  .custom-modal-header .modal-title {
+    font-size: 18px;
+  }
+
+  .modal-body {
+    padding: 22px;
+  }
+}
+
+/* =========================================
+FLOATING BUTTONS (WHATSAPP & SCROLL TOP)
+========================================= */
+
+/* WhatsApp Button - Smooth Professional Animation */
+.whatsapp-chat-btn {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 9999;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #0a8447, #008c53);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+  transition: all 0.5s ease;
+}
+
+/* Icon */
+.whatsapp-chat-btn i {
+  color: #ffffff !important;
+  font-size: 35px;
+  line-height: 1;
+}
+
+/* Hover - smooth (no fast jump) */
+.whatsapp-chat-btn:hover {
+  background: #111111;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+  text-decoration: none;
+}
+
+/* Click - soft press */
+.whatsapp-chat-btn:active {
+  transform: scale(0.97);
+  transition: all 0.2s ease;
+}
+
+/* Tooltip */
+.whatsapp-tooltip {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  right: 120%;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(17, 17, 17, 0.88);
+  color: #ffffff;
+  padding: 9px 14px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  white-space: nowrap;
+  transition: all 0.25s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Show Tooltip */
+.whatsapp-chat-btn:hover .whatsapp-tooltip {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  .whatsapp-chat-btn {
+    right: 5px;
+    bottom: 16px;
+    width: 52px;
+    height: 52px;
+  }
+
+  .whatsapp-chat-btn i {
+    font-size: 28px;
+  }
+
+  .whatsapp-tooltip {
+    display: none;
+  }
+}
+
+/* Scroll to Top Button (Left Side) */
+.floating-scroll-top {
+  position: fixed;
+  bottom: 30px;
+  left: 30px; /* Kept on the left */
+  background-color: #e31837; /* Firemart Red */
+  color: #ffffff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 24px;
+  border: none;
+  box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+  cursor: pointer;
+
+  /* Hidden by default, script will reveal it */
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+}
+
+.floating-scroll-top.show-btn {
+  opacity: 1;
+  visibility: visible;
+}
+
+.floating-scroll-top:hover {
+  background-color: #222222; /* Black on hover */
+  color: #ffffff;
+}
+
+/* Mobile Adjustments */
+@media (max-width: 767px) {
+  .floating-whatsapp {
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+  }
+  .floating-scroll-top {
+    bottom: 20px;
+    left: 5px;
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+  }
+}

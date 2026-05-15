@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="vendors/owl.carousel/css/owl.carousel.css">
 
     <link rel="stylesheet" type="text/css" href="vendors/lightbox/css/lightbox.css" media="screen" />
@@ -170,14 +171,14 @@
                     <div class="productInner row m0">
                         <div class="row m0 imgHov">
                             <!-- Added <a> tag around the image to make it clickable -->
-                            <a href="products/A_Fire-Fighting-System.html" style="display: block;">
+                            <a href="products/A_Fire-Fighting-Eqipments.html" style="display: block;">
                                 <img src="images/product/featured-category/featured-firefighting.jpg"
                                     alt="Fire Fighting System" style="width: 100%;">
                                 <div class="row m0 hovArea"></div>
                             </a>
                         </div>
                         <div class="row m0 proName">
-                            <a href="products/A_Fire-Fighting-System.html">Fire Fighting System</a>
+                            <a href="products/A_Fire-Fighting-System.html">Fire Fighting Equipments</a>
                         </div>
                     </div>
                 </div>
@@ -401,6 +402,18 @@
                 </div>
             </div>
         </div>
+
+        <!-- Floating whatsapp button and scroll to top arrow -->
+        <a href="https://wa.me/919427324870" id="whatsappBtn" class="whatsapp-chat-btn" target="_blank"
+            aria-label="Chat on WhatsApp">
+            <span class="whatsapp-tooltip">Chat with us on WhatsApp</span>
+            <i class="fa fa-whatsapp"></i>
+        </a>
+
+        <button id="scrollToTopBtn" class="floating-scroll-top" title="Go to top">
+            <i class="fa fa-angle-up"></i>
+        </button>
+
     </footer> <!--Footer End-->
 
     <!--jQuery, Bootstrap and other vendor JS-->
@@ -442,7 +455,7 @@
     <!-- ==========================================
      AUTOMATIC INQUIRY POPUP MODAL
      ========================================== -->
-    <!-- <div class="modal fade" id="autoInquiryModal" tabindex="-1" role="dialog" aria-labelledby="inquiryModalLabel">
+    <div class="modal fade" id="autoInquiryModal" tabindex="-1" role="dialog" aria-labelledby="inquiryModalLabel">
         <div class="modal-dialog" role="document">
             <div class="modal-content custom-modal-content">
 
@@ -471,13 +484,52 @@
                         </div>
 
                         <div class="form-group">
+                            <input type="text" class="form-control popup-input" name="company"
+                                placeholder="Company Name">
+                        </div>
+
+                        <div class="form-group">
                             <select class="form-control popup-input" name="category" required>
                                 <option value="">What are you looking for?</option>
-                                <option value="Fire Extinguishers">Fire Extinguishers</option>
-                                <option value="Suppression Systems">Suppression Systems</option>
-                                <option value="Valves & Fittings">Valves & Fittings</option>
-                                <option value="PPE">Personal Protective Equipment (PPE)</option>
-                                <option value="Other">General Inquiry / Other</option>
+
+                                <option value="Fire Fighting System">Fire Fighting System</option>
+                                <option value="Valve">Valve</option>
+                                <option value="Fire Suppression System">Fire Suppression System</option>
+                                <option value="Grooved Fittings">Grooved Fittings</option>
+                                <option value="Fittings & Accessories">Fittings & Accessories</option>
+                                <option value="PPE's">PPE's</option>
+                                <option value="Signages">Signages</option>
+                                <option value="Fire Extinguisher">Fire Extinguisher</option>
+                                <option value="Nitrogen Injection Fire Protection System">
+                                    Nitrogen Injection Fire Protection System
+                                </option>
+                                <option value="Accessible Fire Alarm System">
+                                    Accessible Fire Alarm System
+                                </option>
+                                <option value="Conventional Fire Alarm System">
+                                    Conventional Fire Alarm System
+                                </option>
+                                <option value="PA/VA System">PA/VA System</option>
+                                <option value="Access Control System">Access Control System</option>
+                                <option value="Enterance Control System">
+                                    Enterance Control System
+                                </option>
+                                <option value="Software / Application">
+                                    Software / Application
+                                </option>
+                                <option value="Parking & Traffic Control">
+                                    Parking & Traffic Control
+                                </option>
+                                <option value="Inspection Control">Inspection Control</option>
+                                <option value="Accessories">Accessories</option>
+                                <option value="CCTV System (CP Plus)">
+                                    CCTV System (CP Plus)
+                                </option>
+                                <option value="Network Accessories">Network Accessories</option>
+
+                                <option value="General Inquiry / Other">
+                                    General Inquiry / Other
+                                </option>
                             </select>
                         </div>
 
@@ -492,13 +544,13 @@
 
             </div>
         </div>
-    </div> -->
+    </div>
     <!-- ==========================================
      END INQUIRY POPUP MODAL
      ========================================== -->
 
     <!-- Popup Trigger Script -->
-    <!-- <script>
+    <script>
         $(document).ready(function () {
             // 1. Check if the popup has already been shown during this browser session
             if (!sessionStorage.getItem('firemartPopupShown')) {
@@ -513,7 +565,7 @@
 
             }
         });
-    </script> -->
+    </script>
 
 </body>
 

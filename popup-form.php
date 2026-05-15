@@ -2,6 +2,7 @@
 // 1. Get and clean the popup form data
 $name = htmlspecialchars(trim($_POST['name']));
 $contact_info = htmlspecialchars(trim($_POST['contact'])); // Captures Phone OR Email
+$company = htmlspecialchars(trim($_POST['company']));
 $category = htmlspecialchars(trim($_POST['category']));
 $message = htmlspecialchars(trim($_POST['message']));
 
@@ -20,6 +21,7 @@ $headers .= "X-Mailer: PHP/" . phpversion();
 $body = "You have a new QUICK INQUIRY from the homepage popup:\n\n";
 $body .= "Name: $name\n";
 $body .= "Phone/Email: $contact_info\n";
+$body .= "Company Name: $company\n";
 $body .= "Interested In: $category\n";
 $body .= "Message:\n$message\n";
 
