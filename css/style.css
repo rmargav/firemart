@@ -4228,7 +4228,7 @@ abbr[title] {
    ======================================================== */
 
 #header2 {
-  position: fixed;
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
@@ -4251,21 +4251,22 @@ abbr[title] {
    CRITICAL FIX: Push the rest of the website down so it doesn't hide behind the newly floating header.
    Note: If your header is taller or shorter, adjust this 100px value until the slider sits perfectly underneath it.
 */
-body {
+/* body {
   padding-top: 115px;
-}
-/* Adjust body padding for mobile devices (screens smaller than 768px) */
+} */
+/* Adjust body padding for mobile devices (screens smaller than 768px) 
 @media (max-width: 767px) {
   body {
     padding-top: 76px;
   }
-}
+} */
 /* ========================================================
    MOBILE & TABLET STYLES (Max Width: 767px)
    ======================================================== */
 @media (max-width: 767px) {
   #header2 {
     height: auto;
+    margin-bottom: 10px;
     /* padding-top: 15px;
     padding-bottom: 15px; */
   }
