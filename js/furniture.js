@@ -242,3 +242,28 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+// Category Row JS
+function syncDropdownToURL() {
+  const selectElement = document.getElementById("categoryFilter");
+  if (!selectElement) return;
+
+  // Get the exact file name of the current page (e.g., "cctv-system.html")
+  const currentPath = window.location.pathname;
+  const currentFile = currentPath.split("/").pop() || "index.html";
+
+  // Loop through options and select the one that matches the current URL
+  Array.from(selectElement.options).forEach((option) => {
+    const optionFile = option.value.split("/").pop();
+
+    if (optionFile && currentFile === optionFile) {
+      option.selected = true;
+    }
+  });
+}
+
+// 1. Run when the page loads fresh
+document.addEventListener("DOMContentLoaded", syncDropdownToURL);
+
+// 2. Run when the page is restored from the Back/Forward button cache
+window.addEventListener("pageshow", syncDropdownToURL);
