@@ -267,3 +267,43 @@ document.addEventListener("DOMContentLoaded", syncDropdownToURL);
 
 // 2. Run when the page is restored from the Back/Forward button cache
 window.addEventListener("pageshow", syncDropdownToURL);
+
+// ACTIVE JS FOR HEADER AND FOOTER
+document.addEventListener("DOMContentLoaded", function () {
+  let path = window.location.pathname.toLowerCase();
+
+  // Get current file name
+  let currentPage = path.split("/").pop();
+
+  // Handle homepage
+  if (
+    currentPage === "" ||
+    currentPage === "/" ||
+    currentPage === "index.html"
+  ) {
+    currentPage = "index.html";
+  }
+
+  // Detect if inside products folder
+  const isProductPage = path.includes("/products/");
+
+  // Header + Footer links
+  const menuLinks = document.querySelectorAll("#mainNav2 a, footer .nav a");
+
+  menuLinks.forEach(function (link) {
+    const href = link.getAttribute("href");
+    if (!href) return;
+
+    const file = href.split("/").pop().toLowerCase();
+
+    // CASE 1: Product category pages → always activate catalog.html
+    if (isProductPage && file === "catalog.html") {
+      link.parentElement.classList.add("active");
+    }
+
+    // CASE 2: Normal pages match exactly
+    else if (file === currentPage) {
+      link.parentElement.classList.add("active");
+    }
+  });
+});
